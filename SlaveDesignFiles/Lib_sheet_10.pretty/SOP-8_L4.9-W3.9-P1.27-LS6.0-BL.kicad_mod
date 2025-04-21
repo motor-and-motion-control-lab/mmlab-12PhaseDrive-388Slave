@@ -226,6 +226,28 @@
 		(layer "Dwgs.User")
 		(uuid "e13e23ae-0c3f-4513-b4eb-34f1427577c9")
 	)
+	(fp_rect
+		(start -1.9 -3.6)
+		(end 1.9 -1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8c01ba3d-4232-461b-ab7e-025f632d1d9c")
+	)
+	(fp_rect
+		(start -1.9 1.7)
+		(end 1.9 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b4e6c93f-1f59-4d3c-b445-b4555efbff68")
+	)
 	(fp_circle
 		(center -2.4501 3)
 		(end -2.4201 3)

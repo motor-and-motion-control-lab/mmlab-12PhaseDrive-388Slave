@@ -1,21 +1,19 @@
 (version 1)
 
-# 其他网络到PE间距
-(rule clearance
-(condition "A.NetName=='PE'")
-(constraint clearance (min 2mm) (opt 2mm))
-)
+#(rule "USB clearance"
+#  (constraint clearance (min 0.05mm) (opt 0.05mm))
+#  (condition "A.intersectsCourtyard('USB2.0')"))
 
 
 # 防止在盖油过孔上出现丝印
-(rule silk_over_via
-   (constraint silk_clearance (min 0.2mm))
-   (condition "A.Type == '*Text' && B.Type == 'Via'")
-)
+#(rule silk_over_via
+#   (constraint silk_clearance (min 0.2mm))
+#   (condition "A.Type == '*Text' && B.Type == 'Via'")
+#)
 
 # 走线与焊盘之间的间距
 (rule "Pad to Track Clearance"
-    (constraint clearance (min 0.42mm))
+    (constraint clearance (min 0.25mm) (opt 0.35mm) (max 0.56mm))
     (condition "A.Type == 'Pad' && B.Type == 'Track'")
 )
 
@@ -24,14 +22,14 @@
 # 走线与走线之间的间距
 
 (rule "Track to Track Clearance"
-    (constraint clearance (min 0.28mm) (opt 0.56mm) (max 0.56mm))
+    (constraint clearance (min 9mil) (opt 0.56mm) (max 0.56mm))
     (condition "A.Type == 'Track' && B.Type == 'Track'")
 )
 
 # 走线与via之间的间距
 
 (rule "Track to Via Clearance"
-    (constraint clearance (min 0.4mm) (opt 0.56mm) (max 0.56mm))
+    (constraint clearance (min 0.35mm) (opt 0.56mm) (max 0.56mm))
     (condition "A.Type == 'Via' && B.Type == 'Track'")
 )
 
@@ -42,36 +40,100 @@
 # 表层AGND到其他网络间距
 (rule clearance
 (condition "A.NetName=='AGND'")
-(condition "B.Layer_Top")
-(constraint clearance (min 16mil) (opt 16mil))
+(condition "A.Type=='Zone'")
+(layer outer)
+(constraint clearance (min 0.35mm) (opt 0.5mm))
 )
 
 (rule clearance
 (condition "A.NetName=='AGND'")
-(condition "B.Layer_Bottom")
-(constraint clearance (min 16mil) (opt 16mil))
+(condition "A.Type=='Zone'")
+(layer inner)
+(constraint clearance (min 0.35mm) (opt 0.5mm))
 )
 
 
-# 允许连接器的丝印与板边相交
-(rule silk_board_edge_clearance
+
+
+
+
+
+# 允许连接器的丝印与板边相交1
+(rule silk_board_edge_clearance1
     (constraint silk_clearance)
     (severity ignore)
     (condition "A.memberOfFootprint('DSUB*') && B.Layer=='Edge.Cuts'"))
 
+# 允许连接器的丝印与板边相交2
+(rule silk_board_edge_clearance2
+    (constraint silk_clearance)
+    (severity ignore)
+    (condition "A.memberOfFootprint('Q46') && B.Layer=='Edge.Cuts'"))
 
 
-# 走线过孔数量限制
 
-(rule via_count
-(condition "A.NetClass=='POWER'")
-(constraint via_count (max 3) )
+
+
+
+
+
+# 阻止铜皮进入小器件内部
+# Prevent copper pours under small part
+(rule "No copper pours under C?"
+    (layer outer)
+    (constraint physical_clearance (min 0.05mm))
+    (condition "A.Type == 'Zone' && B.Reference == 'C*'")
+)
+
+
+# 阻止铜皮进入小器件内部
+# Prevent copper pours under small part
+(rule "No copper pours under R?"
+	(layer outer)
+    (constraint physical_clearance (min 0.05mm))
+    (condition "A.Type == 'Zone' && B.Reference == 'R*'")
+)
+
+
+# 阻止铜皮进入小器件内部
+# Prevent copper pours under small part
+(rule "No copper pours under D?"
+    (layer outer)
+    (constraint physical_clearance (min 0.05mm))
+    (condition "A.Type == 'Zone' && B.Reference == 'D*'")
+)
+
+
+
+# 阻止铜皮进入小器件内部
+# Prevent copper pours under small part
+(rule "No copper pours under U?"
+    (layer outer)
+    (constraint physical_clearance (min 0.05mm))
+    (condition "A.Type == 'Zone' && B.Reference == 'U*'")
+)
+
+
+# 阻止铜皮进入小器件内部
+# Prevent copper pours under small part
+(rule "No copper pours under Q?"
+    (layer outer)
+    (constraint physical_clearance (min 0.05mm))
+    (condition "A.Type == 'Zone' && B.Reference == 'Q*'")
 )
 
 
 
 
+# 其他网络到PE间距
+(rule clearance
+(condition "A.NetName=='PE_GND'")
+(constraint clearance (min 2mm) (opt 2.5mm))
+)
 
 
-
-
+# 其他网络到PE间距
+(rule clearance
+(condition "A.NetName=='PE_GND'&& B.memberOfFootprint('ref*')")
+(constraint clearance (min 0.1mm) (opt 0.1mm))
+)

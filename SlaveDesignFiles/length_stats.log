@@ -1,0 +1,21 @@
+04-17 16:56:54 beantools.length_stats.action_length_stats 308:Plugin executed on: 'win32'
+04-17 16:56:54 beantools.length_stats.action_length_stats 309:Plugin executed with python version: '3.11.5 (main, Jan 27 2025, 07:08:36) [MSC v.1942 64 bit (AMD64)]'
+04-17 16:56:54 beantools.length_stats.action_length_stats 310:KiCad build version: 9.0.0
+04-17 16:56:54 beantools.length_stats.action_length_stats 311:Length stats plugin version: 30 started
+04-17 16:57:00 STDERR 354:D:\Kicad\install\share\kicad\scripting\plugins\beantools\length_stats\action_length_stats.py:55: wxPyDeprecationWarning: Call to deprecated item. Use SetSizeHints instead.
+04-17 16:57:00 STDERR 354:  self.SetSizeHintsSz(sz1, sz2)
+04-17 16:57:00 beantools.length_stats.action_length_stats 210:Sorting list
+04-17 16:57:00 beantools.length_stats.action_length_stats 95:Length stats gui initialized
+04-17 16:57:00 beantools.length_stats.action_length_stats 96:Nets for stats are;
+[]
+04-17 16:57:00 beantools.length_stats.action_length_stats 134:Refreshing net lengths
+04-17 16:57:04 beantools.length_stats.action_length_stats 110:Refreshing manually
+04-17 16:57:04 beantools.length_stats.action_length_stats 134:Refreshing net lengths
+04-17 16:57:05 beantools.length_stats.action_length_stats 102:Automatic refresh turned on
+04-17 16:57:05 STDERR 354:Traceback (most recent call last):
+04-17 16:57:05 STDERR 354:  File "D:\Kicad\install\share\kicad\scripting\plugins\beantools\length_stats\action_length_stats.py", line 103, in cont_refresh_toggle
+04-17 16:57:05 STDERR 354:self.timer.Start(self.refresh_time * 10 * 1000)
+04-17 16:57:05 STDERR 354:TypeError
+04-17 16:57:05 STDERR 354::
+04-17 16:57:05 STDERR 354:Timer.Start(): argument 1 has unexpected type 'float'
+04-17 16:57:09 beantools.length_stats.action_length_stats 123:Closing GUI

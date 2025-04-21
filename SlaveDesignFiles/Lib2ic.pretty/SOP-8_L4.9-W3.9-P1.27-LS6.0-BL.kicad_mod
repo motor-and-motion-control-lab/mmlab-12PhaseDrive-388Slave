@@ -1,7 +1,7 @@
 (footprint "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.7244 0)
@@ -26,18 +26,6 @@
 				(thickness 0.1524)
 			)
 			(justify left top)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e3558051-0a95-44e4-9346-c35abd55995b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -156,7 +144,7 @@
 			(width 0.3)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "c4facaee-6208-4860-8037-61355efe44a7")
 	)
@@ -167,9 +155,129 @@
 			(width 0.3)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "5f78f81c-66d7-42db-bc81-954edf74374c")
+	)
+	(fp_line
+		(start -2.3 -3.6)
+		(end -1.9 -3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6de2a1c-04e1-45f8-ad18-f4f45def2f34")
+	)
+	(fp_line
+		(start -2.3 -1.7)
+		(end -2.3 -3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "84725186-68ff-415c-85b6-f8feea789bff")
+	)
+	(fp_line
+		(start -2.3 1.7)
+		(end -1.9 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4dc91677-039e-4326-9455-6fcafb16e070")
+	)
+	(fp_line
+		(start -2.3 3.6)
+		(end -2.3 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "44515198-cde5-4ef4-9e85-88b7850fc32e")
+	)
+	(fp_line
+		(start -1.9 -3.6)
+		(end 2.3 -3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "33195aa1-e035-42b7-92d2-903a047c7fcc")
+	)
+	(fp_line
+		(start -1.9 1.7)
+		(end 2.3 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f96b8fe7-f2fd-4d68-9837-12c339f42cf7")
+	)
+	(fp_line
+		(start -1.1 -1.7)
+		(end -2.3 -1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "44f4c490-f52c-4225-9c09-4d1bb9e477d6")
+	)
+	(fp_line
+		(start -1.1 3.6)
+		(end -2.3 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5b6db10-a032-4c84-9ab3-a3ce934fc588")
+	)
+	(fp_line
+		(start 2.3 -3.6)
+		(end 2.3 -1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed4d227c-47ed-494a-9a0e-475352918af7")
+	)
+	(fp_line
+		(start 2.3 -1.7)
+		(end -1.1 -1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "288def30-2a1f-404d-bad1-ff9bf8a4b085")
+	)
+	(fp_line
+		(start 2.3 1.7)
+		(end 2.3 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5dc1587-0c47-449d-b494-473e7913a2af")
+	)
+	(fp_line
+		(start 2.3 3.6)
+		(end -1.1 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d569b4ca-7250-4f3b-880a-9a0f06c03040")
 	)
 	(fp_circle
 		(center -2.4501 3)
@@ -178,14 +286,14 @@
 			(width 0.06)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "User.5")
 		(uuid "0244d636-9f17-4ad5-8775-0d28af7ef232")
 	)
 	(pad "1" smd oval
 		(at -1.905 2.6825)
 		(size 0.63 1.865)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "6b5827ec-ab02-4c70-aa3d-dcff4966b8cc")
@@ -193,7 +301,7 @@
 	(pad "2" smd oval
 		(at -0.635 2.6825)
 		(size 0.63 1.865)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "394df7e2-62c2-4696-9cbb-a58480e5011b")
@@ -201,7 +309,7 @@
 	(pad "3" smd oval
 		(at 0.635 2.6825)
 		(size 0.63 1.865)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "7574e926-8bc7-4426-96f6-1877af83038e")
@@ -209,7 +317,7 @@
 	(pad "4" smd oval
 		(at 1.905 2.6825)
 		(size 0.63 1.865)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "3f71c838-5ad6-43d9-bf6a-53ae84fe210e")
@@ -217,7 +325,7 @@
 	(pad "5" smd oval
 		(at 1.905 -2.6825)
 		(size 0.63 1.865)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "c0b57d32-e38c-461d-b9e6-57dbbdf82419")
@@ -225,7 +333,7 @@
 	(pad "6" smd oval
 		(at 0.635 -2.6825)
 		(size 0.63 1.865)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "42b81f37-0c2d-4c7a-92ba-67f790a677b5")
@@ -233,7 +341,7 @@
 	(pad "7" smd oval
 		(at -0.635 -2.6825)
 		(size 0.63 1.865)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "8612d503-a9c4-48f1-8960-e50bd0dc0d0d")
@@ -241,7 +349,7 @@
 	(pad "8" smd oval
 		(at -1.905 -2.6825)
 		(size 0.63 1.865)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "e8650bcb-4803-4a4b-9cd2-98acf68a0b8b")
@@ -293,6 +401,10 @@
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -381,6 +493,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -409,6 +525,10 @@
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -497,6 +617,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -525,6 +649,10 @@
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -613,6 +741,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -641,6 +773,10 @@
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -729,6 +865,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -739,6 +879,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/EASYEDA_MODELS/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1.step"
 		(offset
 			(xyz 0.0001 -0 0)
