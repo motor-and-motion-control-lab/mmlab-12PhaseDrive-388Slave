@@ -17472,6 +17472,18 @@
 		(uuid cb71fb9d-0e7e-4a5c-b7e4-6e93563fedf6)
 	)
 	(rectangle
+		(start 756.92 287.02)
+		(end 805.18 331.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d231d455-7a7f-41b3-90bf-a27ed5a2092f)
+	)
+	(rectangle
 		(start 250.19 600.71)
 		(end 284.48 674.37)
 		(stroke
@@ -33560,7 +33572,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "035d1e7c-bd36-4e9c-a2e3-5d9e4848773e")
 		(property "Reference" "R291"
@@ -33839,7 +33851,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "042ca566-d094-4771-9cb4-af56ed00ff14")
 		(property "Reference" "R292"
@@ -41448,7 +41460,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "43cc77d2-0418-4365-b407-e955e3766f93")
 		(property "Reference" "R294"
@@ -65867,7 +65879,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "ea3f8837-c2b1-4844-9165-59418a3b239f")
 		(property "Reference" "R293"
