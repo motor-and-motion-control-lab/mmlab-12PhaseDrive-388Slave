@@ -452,7 +452,9 @@
       "Capacitor",
       "Diode"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "SamacSys_Parts"
+    ]
   },
   "meta": {
     "filename": "IPM_Board.kicad_pro",

@@ -543,34 +543,6 @@
 		(layer "User.6")
 		(uuid "7e86cf86-9578-47fe-b020-c2d637711e70")
 	)
-	(pad "" np_thru_hole oval
-		(at -6.78 0)
-		(size 2 0.1)
-		(drill oval 2.3 1.5)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "4b735463-793a-41c2-a80b-ab0f6d02d679")
-	)
-	(pad "" np_thru_hole oval
-		(at -1.7 0)
-		(size 2 0.1)
-		(drill oval 2.3 1.5)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "0564b1d0-8db6-48d3-8597-7260114e8961")
-	)
-	(pad "" np_thru_hole oval
-		(at 5.07995 -0.00014)
-		(size 2 0.1)
-		(drill oval 5.7 1.5)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "7638e4cf-65d0-4bd3-9cdd-4e8bb2004ada")
-	)
-	(pad "" np_thru_hole oval
-		(at 5.07995 -0.00014 90)
-		(size 2 0.1)
-		(drill oval 5.4 0.8)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "c376760e-5b5f-4393-8270-3c43b08ee3e1")
-	)
 	(pad "1" smd rect
 		(at -6.78002 -1.5)
 		(size 2 1.3)
@@ -786,15 +758,4 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${STEP}/LS05-K3BxxSS.stp"
-		(offset
-			(xyz -9.34 -0.45 1.2)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 -0 -0)
-		)
-	)
 )
