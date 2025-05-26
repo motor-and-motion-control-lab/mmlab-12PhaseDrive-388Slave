@@ -446,7 +446,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Footprint",
+      "Resistor",
+      "Capacitor",
+      "Diode"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
