@@ -420,17 +420,6 @@
 		(uuid "7771ee33-6562-428f-ad6c-9cef19231498")
 	)
 	(fp_circle
-		(center -17.41902 -0.00014)
-		(end -18.969029 -0.00014)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "f0b89df2-d668-4ed7-be9f-8f98090a2d5a")
-	)
-	(fp_circle
 		(center 16.66489 13.59497)
 		(end 16.66489 13.39497)
 		(stroke
@@ -440,17 +429,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "605a6d94-a46f-427a-8a2b-454304523283")
-	)
-	(fp_circle
-		(center 17.41846 -0.00014)
-		(end 15.868451 -0.00014)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "3a418757-4e9f-497c-a8c9-840387025140")
 	)
 	(fp_line
 		(start -19.25005 -12.24996)
@@ -1086,7 +1064,7 @@
 	)
 	(fp_circle
 		(center -17.41902 -0.00014)
-		(end -15.86902 -0.00014)
+		(end -13.91902 -0.00014)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -1097,7 +1075,7 @@
 	)
 	(fp_circle
 		(center 17.41846 -0.00014)
-		(end 18.96846 -0.00014)
+		(end 20.91846 -0.00014)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -1116,14 +1094,6 @@
 		(fill no)
 		(layer "User.6")
 		(uuid "f61392ce-41bb-41fa-a40e-d3ea0f9c2383")
-	)
-	(pad "1" thru_hole circle
-		(at 17.41846 -0.00014)
-		(size 4.3 4.3)
-		(drill 3.1)
-		(layers "*.Cu" "*.Mask" "Dwgs.User")
-		(remove_unused_layers no)
-		(uuid "4695fc65-5d93-4c8f-b714-39dc290a539a")
 	)
 	(pad "2" thru_hole circle
 		(at 14.22408 13.99997 180)
@@ -1388,14 +1358,6 @@
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
 		(uuid "cb1f5200-014f-45e4-beb6-6085c8847bc8")
-	)
-	(pad "26" thru_hole circle
-		(at -17.41902 -0.00014)
-		(size 4.3 4.3)
-		(drill 3.1)
-		(layers "*.Cu" "*.Mask" "Dwgs.User")
-		(remove_unused_layers no)
-		(uuid "1ea8c5d0-6c4a-4ec8-9dc1-7deae0873d78")
 	)
 	(embedded_fonts no)
 )
