@@ -1,0 +1,163 @@
+(version 1)
+
+#PE距离强电信号 4mm
+
+(rule clearence 
+(constraint clearance (min 4mm))
+(condition "A.NetName=='PE_GND' && B.NetName=='/IPM_N'")
+)
+(rule clearence 
+(constraint clearance (min 4mm))
+(condition "A.NetName=='PE_GND' && B.NetName=='VDC_BUS'")
+)
+(rule clearence 
+(constraint clearance (min 4mm))
+(condition "A.NetName=='PE_GND' && B.NetName=='HV_GND'")
+)
+(rule clearence 
+(constraint clearance (min 4mm))
+(condition "A.NetName=='PE_GND' && B.NetName=='/L1_IN'")
+)
+(rule clearence 
+(constraint clearance (min 4mm))
+(condition "A.NetName=='PE_GND' && B.NetName=='/L2_IN'")
+)
+#PE距离二次侧弱电信号 2.5mm
+(rule clearence 
+(constraint clearance (min 2.5mm))
+(condition "A.NetName=='PE_GND' && B.NetName=='GND'")
+)
+#PN母线之间距离
+
+(rule clearence
+(condition "A.NetName=='VDC_BUS' && B.NetName=='HV_GND'")
+(constraint clearance (min 3.5mm))
+)
+(rule clearence
+(condition "A.NetName=='VDC_BUS' && B.NetName=='/IPM_N'")
+(constraint clearance (min 3.5mm))
+)
+
+(rule clearence
+(condition "A.NetName=='Net-(L4-Pad1)' && B.NetName=='Net-(C38-Pad2)'")
+(constraint clearance (min 3.5mm))
+)
+
+#UV之间距离
+
+(rule clearence
+(condition "A.NetName=='/IPM_U' && B.NetName=='/IPM_V'")
+(constraint clearance (min 3mm))
+)
+(rule clearence
+(condition "A.NetName=='/IPM_U' && B.NetName=='V_OUT'")
+(constraint clearance (min 3mm))
+)
+
+#UW之间距离
+
+(rule clearence
+(condition "A.NetName=='/IPM_U' && B.NetName=='/IPM_W'")
+(constraint clearance (min 3mm))
+)
+(rule clearence
+(condition "A.NetName=='/IPM_U' && B.NetName=='W_OUT'")
+(constraint clearance (min 3mm))
+)
+#WV之间距离
+
+(rule clearence
+(condition "A.NetName=='/IPM_W' && B.NetName=='/IPM_V'")
+(constraint clearance (min 3mm))
+)
+(rule clearence
+(condition "A.NetName=='W_OUT' && B.NetName=='V_OUT'")
+(constraint clearance (min 3mm))
+)
+#NW之间距离
+
+(rule clearence
+(condition "A.NetName=='HV_GND' && B.NetName=='/IPM_W'")
+(constraint clearance (min 4mm))
+)
+
+(rule clearence
+(condition "A.NetName=='/IPM_N' && B.NetName=='/IPM_W'")
+(constraint clearance (min 4mm))
+)
+
+#NV之间距离
+
+(rule clearence
+(condition "A.NetName=='HV_GND' && B.NetName=='/IPM_V'")
+(constraint clearance (min 4mm))
+)
+
+#NU之间距离
+
+(rule clearence
+(condition "A.NetName=='HV_GND' && B.NetName=='/IPM_U'")
+(constraint clearance (min 4mm))
+)
+
+#pU之间距离
+(rule clearence
+(condition "A.NetName=='VDC_BUS' && B.NetName=='/IPM_U'")
+(constraint clearance (min 4mm))
+)
+
+#R7采样电阻焊盘之间铜皮距离
+
+(rule clearence
+(condition "A.Type=='zone_/IPM_N' && B.Type=='zone_HV_GND'")
+(constraint clearance (min 1mm))
+)
+
+#R12采样电阻焊盘之间铜皮距离
+
+(rule clearence
+(condition "A.Type=='zone_/IPM_W' && B.Type=='zone_W_OUT'")
+(constraint clearance (min 1mm))
+)
+
+#R10采样电阻焊盘之间铜皮距离
+
+(rule clearence
+(condition "A.Type=='zone_/IPM_N' && B.Type=='zone_HV_GND'")
+(constraint clearance (min 1mm))
+)
+# L-U之间距离
+(rule clearence
+(condition "A.NetName=='/IPM_U' && B.NetName=='/L2_IN'")
+(constraint clearance (min 4mm))
+)
+
+# LN之间距离
+(rule clearence 
+(constraint clearance (min 2.6mm))
+(condition "A.NetName=='/L2_IN' && B.NetName=='/L1_IN'")
+)
+(rule clearence 
+(constraint clearance (min 2.6mm))
+(condition "A.NetName=='Net-(D14-AC-Pad2)' && B.NetName=='/L1_IN'")
+)
+# VOUT距离二次侧弱电爬电8mm
+(rule clearence
+(condition "A.NetName=='Net-(D11-A)' && B.NetName=='V_OUT'")
+(constraint clearance (min 8mm))
+)
+# L2_IN距离二次侧弱电爬电8mm
+(rule clearence
+(condition "A.NetName=='Net-(D11-A)' && B.NetName=='/L2_IN'")
+(constraint clearance (min 8mm))
+)
+
+# PN-LN之间间距4mm
+(rule clearence
+(condition "A.NetName=='Net-(D14-AC-Pad2)' && B.NetName=='VDC_BUS'")
+(constraint clearance (min 4mm))
+)
+(rule clearence
+(condition "A.NetName=='HV_GND' && B.NetName=='/L1_IN")
+(constraint clearance (min 4mm))
+)
