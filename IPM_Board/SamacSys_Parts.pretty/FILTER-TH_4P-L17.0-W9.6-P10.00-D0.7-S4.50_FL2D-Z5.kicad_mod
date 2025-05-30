@@ -239,4 +239,15 @@
 		(uuid "71353cc6-63f8-4626-8a18-26389ed8803b")
 	)
 	(embedded_fonts no)
+	(model "${STEP}/FL2D-10-222.stp"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

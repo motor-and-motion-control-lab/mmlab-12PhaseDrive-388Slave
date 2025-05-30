@@ -1095,6 +1095,20 @@
 		(layer "User.6")
 		(uuid "f61392ce-41bb-41fa-a40e-d3ea0f9c2383")
 	)
+	(pad "" np_thru_hole circle
+		(at -17.41902 -0.00014)
+		(size 2.54 2.54)
+		(drill 11)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "632d39d9-ed61-4796-91ef-dbb7aec50cbd")
+	)
+	(pad "" np_thru_hole circle
+		(at 17.41846 -0.00014)
+		(size 2.54 2.54)
+		(drill 11)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "5d745946-dacf-4cc5-afdd-02976211c3e3")
+	)
 	(pad "2" thru_hole circle
 		(at 14.22408 13.99997 180)
 		(size 1.35001 1.35001)

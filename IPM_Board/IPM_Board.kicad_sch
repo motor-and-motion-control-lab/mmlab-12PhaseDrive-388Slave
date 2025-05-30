@@ -19379,7 +19379,7 @@
 		(uuid "935f6c6d-93b8-4935-bef2-30289bcd301e")
 	)
 	(label "PE_GND"
-		(at 486.41 185.42 0)
+		(at 486.41 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19409,7 +19409,7 @@
 		(uuid "98a63171-4afa-4937-a2b5-4776c8ba99bd")
 	)
 	(label "U_OUT"
-		(at 269.24 290.83 0)
+		(at 269.24 295.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19429,7 +19429,7 @@
 		(uuid "9f639c84-e015-435b-94b0-6bbcf5957020")
 	)
 	(label "L2_IN"
-		(at 486.41 180.34 0)
+		(at 486.41 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19579,7 +19579,7 @@
 		(uuid "c75af1b7-2a44-4056-a4bc-64909c41ab72")
 	)
 	(label "V_OUT"
-		(at 269.24 295.91 0)
+		(at 269.24 290.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37441,7 +37441,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 370.84 90)
+		(at 44.45 370.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37449,7 +37449,7 @@
 		(dnp no)
 		(uuid "d990c03e-e731-46d3-868b-cde7d2e0be37")
 		(property "Reference" "R1"
-			(at 45.212 374.142 90)
+			(at 43.688 367.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37457,7 +37457,7 @@
 			)
 		)
 		(property "Value" "6.8R/3W(wire-wound resistor)"
-			(at 50.546 377.952 90)
+			(at 38.354 363.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37465,7 +37465,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:RES-TH_BD6.0-L17.5-P9.00-D0.8"
-			(at 44.45 372.618 90)
+			(at 44.45 369.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
