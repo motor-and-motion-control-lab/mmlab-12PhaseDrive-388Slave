@@ -21914,7 +21914,7 @@
 				)
 			)
 		)
-		(property "Value" "DB2ERC-7.62-3P-GN"
+		(property "Value" "DBT50G-9.5-3P-BK-P OGC"
 			(at 450.215 177.8 0)
 			(effects
 				(font
@@ -21922,7 +21922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CONN-TH_3P-P7.62_DB2ERC-7.62-3P"
+		(property "Footprint" "SamacSys_Parts:CONN-TH_3P-P9.50_DBT50G-9.5-3P"
 			(at 449.58 182.88 0)
 			(effects
 				(font
@@ -40380,7 +40380,7 @@
 				)
 			)
 		)
-		(property "Value" "DB2ERC-7.62-3P-GN"
+		(property "Value" "DBT50G-9.5-3P-BK-P OGC"
 			(at 481.965 177.8 0)
 			(effects
 				(font
@@ -40388,7 +40388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CONN-TH_3P-P7.62_DB2ERC-7.62-3P"
+		(property "Footprint" "SamacSys_Parts:CONN-TH_3P-P9.50_DBT50G-9.5-3P"
 			(at 481.33 182.88 0)
 			(effects
 				(font
