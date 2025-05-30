@@ -372,251 +372,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -12708,10 +12463,6 @@
 		(uuid "86ece501-15bd-4c21-93dd-b2a56abe9168")
 	)
 	(no_connect
-		(at 486.41 185.42)
-		(uuid "98624617-00b6-4069-885d-4009a05a056b")
-	)
-	(no_connect
 		(at 346.71 201.93)
 		(uuid "a5963c89-b158-4fa6-9b87-d27fea4990d5")
 	)
@@ -19628,7 +19379,7 @@
 		(uuid "935f6c6d-93b8-4935-bef2-30289bcd301e")
 	)
 	(label "PE_GND"
-		(at 486.41 187.96 0)
+		(at 486.41 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23922,7 +23673,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAZ18-13-F"
+		(property "Value" "MMSZ5259B"
 			(at 61.468 234.95 90)
 			(effects
 				(font
@@ -23931,7 +23682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:DIOM5226X240N"
+		(property "Footprint" "SamacSys_Parts:SOD-123_L2.8-W1.8-LS3.9-FD"
 			(at 68.58 241.3 0)
 			(effects
 				(font
@@ -26172,7 +25923,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAZ18-13-F"
+		(property "Value" "MMSZ5259B"
 			(at 71.12 212.0899 90)
 			(effects
 				(font
@@ -26181,7 +25932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:DIOM5226X240N"
+		(property "Footprint" "SamacSys_Parts:SOD-123_L2.8-W1.8-LS3.9-FD"
 			(at 68.58 210.82 0)
 			(effects
 				(font
@@ -28101,7 +27852,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAZ18-13-F"
+		(property "Value" "MMSZ5259B"
 			(at 71.12 184.1499 90)
 			(effects
 				(font
@@ -28110,7 +27861,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:DIOM5226X240N"
+		(property "Footprint" "SamacSys_Parts:SOD-123_L2.8-W1.8-LS3.9-FD"
 			(at 68.58 182.88 0)
 			(effects
 				(font
@@ -30153,80 +29904,6 @@
 			(project "IPM_Board"
 				(path "/1a7d0448-6f26-4db8-9acd-3c4b9127cd9c"
 					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 481.33 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b7df1f7-1679-43d3-a6a3-93ef549460f0")
-		(property "Reference" "J4"
-			(at 481.965 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DB2ERC-7.62-4P-GN"
-			(at 481.965 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:CONN-TH_4P-P7.62_WJ2EDGV-5.08-4P"
-			(at 481.33 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 481.33 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 481.33 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b64db187-efb7-479d-8120-d0eb7f961717")
-		)
-		(pin "2"
-			(uuid "32872db6-0c6e-474d-a2cc-9e50d9a5e348")
-		)
-		(pin "3"
-			(uuid "dbb3264d-c680-4f83-9f09-43a9f9783747")
-		)
-		(pin "4"
-			(uuid "c909ade8-c706-411d-89f7-10e72ec53412")
-		)
-		(instances
-			(project ""
-				(path "/1a7d0448-6f26-4db8-9acd-3c4b9127cd9c"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -35332,7 +35009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/50V"
+		(property "Value" "2.2uF/310VAC"
 			(at 55.88 367.0299 0)
 			(effects
 				(font
@@ -35341,7 +35018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "SamacSys_Parts:CAP-TH_L18.0-W6.0-P15.00-D0.8"
 			(at 53.0352 369.57 0)
 			(effects
 				(font
@@ -35359,7 +35036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "MPX224K31D2KN15800"
 			(at 52.07 365.76 0)
 			(effects
 				(font
@@ -37787,7 +37464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RES-TH_BD4.6-L11.5-P19.50-D0.8"
+		(property "Footprint" "SamacSys_Parts:RES-TH_BD6.0-L17.5-P9.00-D0.8"
 			(at 44.45 372.618 90)
 			(effects
 				(font
@@ -40680,6 +40357,77 @@
 			(project ""
 				(path "/1a7d0448-6f26-4db8-9acd-3c4b9127cd9c"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 481.33 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9b8d190-ac7f-489e-a3fe-6440fc79b8c8")
+		(property "Reference" "J4"
+			(at 481.965 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB2ERC-7.62-3P-GN"
+			(at 481.965 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:CONN-TH_3P-P7.62_DB2ERC-7.62-3P"
+			(at 481.33 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 481.33 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 481.33 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1d5061e-9a78-495e-8ac8-c82f4f2a8114")
+		)
+		(pin "2"
+			(uuid "1c5683f3-06ee-4312-8c3a-6482e43b3295")
+		)
+		(pin "3"
+			(uuid "1cffd6ac-2eae-4487-8410-c3251a31cfe2")
+		)
+		(instances
+			(project "IPM_Board"
+				(path "/1a7d0448-6f26-4db8-9acd-3c4b9127cd9c"
+					(reference "J4")
 					(unit 1)
 				)
 			)
