@@ -16550,16 +16550,6 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 142.24) (xy 472.44 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abb5fc4a-79aa-49b5-b1b4-06a013faee67")
-	)
-	(wire
-		(pts
 			(xy 346.71 186.69) (xy 349.25 186.69)
 		)
 		(stroke
@@ -18517,6 +18507,16 @@
 			(type default)
 		)
 		(uuid "f492a3a0-81b0-4123-986c-88a95e2040c1")
+	)
+	(wire
+		(pts
+			(xy 472.44 142.24) (xy 472.44 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ca3be4-5675-4486-814a-dd51f00f4e06")
 	)
 	(wire
 		(pts
@@ -24052,7 +24052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 编号：C247343"
 			(at 439.42 250.19 0)
 			(effects
 				(font
@@ -24616,7 +24616,7 @@
 	(symbol
 		(lib_id "sheet1-altium-import:X3025WVS-2*10D-LPSW")
 		(at 461.01 135.89 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24624,7 +24624,7 @@
 		(dnp no)
 		(uuid "41d07e49-223e-474b-b06d-9294b2a33169")
 		(property "Reference" "CN1"
-			(at 478.536 104.648 0)
+			(at 481.838 159.004 0)
 			(effects
 				(font
 					(face "Arial")
@@ -24634,7 +24634,7 @@
 			)
 		)
 		(property "Value" "X3025WVS-2*10D-LPSW"
-			(at 483.362 108.458 0)
+			(at 478.028 155.448 0)
 			(effects
 				(font
 					(face "Arial")
@@ -41530,7 +41530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "Fuse C2762420"
 			(at 44.45 360.68 0)
 			(effects
 				(font

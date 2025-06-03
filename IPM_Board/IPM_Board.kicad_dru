@@ -53,6 +53,10 @@
 (condition "A.NetName=='/IPM_U' && B.NetName=='V_OUT'")
 (constraint clearance (min 3mm))
 )
+(rule clearence
+(condition "A.NetName=='/VBOOTv' && B.NetName=='Net-(D3-K)'")
+(constraint clearance (min 2.2mm))
+)
 
 #UW之间距离
 
@@ -74,58 +78,48 @@
 (condition "A.NetName=='W_OUT' && B.NetName=='V_OUT'")
 (constraint clearance (min 3mm))
 )
+
+(rule clearence
+(condition "A.NetName=='/VBOOTw' && B.NetName=='/VBOOTv'")
+(constraint clearance (min 2.2mm))
+)
+(rule clearence
+(condition "A.NetName=='/VBOOTw' && B.NetName=='/HINu'")
+(constraint clearance (min 2.2mm))
+)
 #NW之间距离
 
 (rule clearence
 (condition "A.NetName=='HV_GND' && B.NetName=='/IPM_W'")
-(constraint clearance (min 4mm))
+(constraint clearance (min 3.28mm))
 )
 
 (rule clearence
 (condition "A.NetName=='/IPM_N' && B.NetName=='/IPM_W'")
-(constraint clearance (min 4mm))
+(constraint clearance (min 3.28mm))
 )
 
 #NV之间距离
 
 (rule clearence
 (condition "A.NetName=='HV_GND' && B.NetName=='/IPM_V'")
-(constraint clearance (min 4mm))
+(constraint clearance (min 3.28mm))
 )
 
 #NU之间距离
 
 (rule clearence
 (condition "A.NetName=='HV_GND' && B.NetName=='/IPM_U'")
-(constraint clearance (min 4mm))
+(constraint clearance (min 3.28mm))
 )
 
 #pU之间距离
 (rule clearence
 (condition "A.NetName=='VDC_BUS' && B.NetName=='/IPM_U'")
-(constraint clearance (min 4mm))
+(constraint clearance (min 3.28mm))
 )
 
-#R7采样电阻焊盘之间铜皮距离
 
-(rule clearence
-(condition "A.Type=='zone_/IPM_N' && B.Type=='zone_HV_GND'")
-(constraint clearance (min 1mm))
-)
-
-#R12采样电阻焊盘之间铜皮距离
-
-(rule clearence
-(condition "A.Type=='zone_/IPM_W' && B.Type=='zone_W_OUT'")
-(constraint clearance (min 1mm))
-)
-
-#R10采样电阻焊盘之间铜皮距离
-
-(rule clearence
-(condition "A.Type=='zone_/IPM_N' && B.Type=='zone_HV_GND'")
-(constraint clearance (min 1mm))
-)
 # L-U之间距离
 (rule clearence
 (condition "A.NetName=='/IPM_U' && B.NetName=='/L2_IN'")
@@ -161,3 +155,36 @@
 (condition "A.NetName=='HV_GND' && B.NetName=='/L1_IN")
 (constraint clearance (min 4mm))
 )
+
+
+#R7采样电阻焊盘之间铜皮距离
+
+(rule clearence
+(condition "A.Type=='zone_/IPM_N' && B.Type=='zone_HV_GND'")
+(constraint clearance (min 1mm))
+)
+
+#R12采样电阻焊盘之间铜皮距离
+
+(rule clearence
+(condition "A.Type=='zone_/IPM_W' && B.Type=='zone_W_OUT'")
+(constraint clearance (min 1mm))
+)
+
+#R10采样电阻焊盘之间铜皮距离
+
+(rule clearence
+(condition "A.Type=='zone_/IPM_N' && B.Type=='zone_HV_GND'")
+(constraint clearance (min 1mm))
+)
+# via与铜皮距离 0.4mm
+(rule clearence
+(condition "A.Type=='zone_GND' && B.Type=='Via'")
+(constraint clearance (min 0.4mm))
+)
+# NPTH与铜皮距离 1mm
+(rule clearence
+(condition "A.Pad_Type=='NPTH, mechanical' && B.Type=='zone_HV_GND")
+(constraint clearance (min 1mm))
+)
+
