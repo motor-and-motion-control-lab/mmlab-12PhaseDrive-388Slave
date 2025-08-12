@@ -15390,16 +15390,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 256.54) (xy 323.85 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a959418-27b3-45f2-b4e8-59fabaa2c3c6")
-	)
-	(wire
-		(pts
 			(xy 354.33 254) (xy 354.33 256.54)
 		)
 		(stroke
@@ -17350,7 +17340,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 256.54) (xy 316.23 256.54)
+			(xy 308.61 256.54) (xy 336.55 256.54)
 		)
 		(stroke
 			(width 0)
@@ -32342,75 +32332,6 @@
 			(project "IPM_Board"
 				(path "/1a7d0448-6f26-4db8-9acd-3c4b9127cd9c"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 320.04 256.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97e59f11-fc20-4a5a-abac-48cc2f9e5f1f")
-		(property "Reference" "R31"
-			(at 318.7699 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "75R"
-			(at 321.3099 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 320.04 254.762 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 320.04 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 320.04 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8ef4e722-2a32-44fc-89cd-c1798755c785")
-		)
-		(pin "1"
-			(uuid "58db1a90-a9a1-4e37-89d5-e9b5449c4009")
-		)
-		(instances
-			(project "IPM_Board"
-				(path "/1a7d0448-6f26-4db8-9acd-3c4b9127cd9c"
-					(reference "R31")
 					(unit 1)
 				)
 			)
