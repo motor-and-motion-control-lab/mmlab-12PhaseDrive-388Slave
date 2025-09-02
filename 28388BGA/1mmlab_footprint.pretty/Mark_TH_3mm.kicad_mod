@@ -1,0 +1,65 @@
+(footprint "Mark_TH_3mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "690b5488-3c82-4c46-a817-4237c91b9bb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.005)
+			)
+		)
+	)
+	(property "Value" "Mark_TH_3mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ac2e0ff8-39b7-43f9-a8d1-ef3404051a57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4522869-90b1-4e41-9790-365b930e98cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e3aef5b-5293-4f7b-9b2d-9b2542648f27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 0.1 0.1)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "32ab9b9b-4643-4cce-94e5-be7c06b3203d")
+	)
+	(embedded_fonts no)
+)
