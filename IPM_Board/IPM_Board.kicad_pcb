@@ -38697,7 +38697,7 @@
 	(footprint "SamacSys_Parts:RES-TH_L14.0-W8.5-P7.50-D0.9-S8.50"
 		(layer "B.Cu")
 		(uuid "02adf56d-ba49-4d51-85cb-9c0b6fa32215")
-		(at 150.05 147.525 180)
+		(at 147.04994 152.97499 180)
 		(property "Reference" "RV2"
 			(at -5.85 -5.675 0)
 			(unlocked yes)
@@ -39731,7 +39731,7 @@
 	(footprint "SamacSys_Parts:RES-TH_L14.0-W8.5-P7.50-D0.9-S8.50"
 		(layer "B.Cu")
 		(uuid "200ede7a-1ac6-44b8-b0ff-4e3e6b894199")
-		(at 129.45 157.775)
+		(at 132.37494 152.09999)
 		(property "Reference" "RV1"
 			(at 2.65 -10.775 0)
 			(unlocked yes)
@@ -40564,7 +40564,7 @@
 	(footprint "SamacSys_Parts:RES-TH_L11.5-W1.8-P11.0-Y115-11-7.5J"
 		(layer "B.Cu")
 		(uuid "3e13ce2d-f9cb-4950-857d-bd57eb8747a8")
-		(at 64.491 150.060985 90)
+		(at 70.824998 150.39999 90)
 		(property "Reference" "R12"
 			(at 0.01 3.309 0)
 			(unlocked yes)
@@ -45524,7 +45524,7 @@
 	(footprint "SamacSys_Parts:RES-TH_L11.5-W1.8-P11.0-Y115-11-7.5J"
 		(layer "B.Cu")
 		(uuid "82654751-dd91-4844-869e-cfb132856bed")
-		(at 76.337679 150.189324 90)
+		(at 82.724998 150.39999 90)
 		(property "Reference" "R10"
 			(at 0.389324 -2.837679 0)
 			(unlocked yes)
