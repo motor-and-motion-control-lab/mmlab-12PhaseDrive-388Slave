@@ -130,154 +130,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:Earth_Protective"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Earth_Protective"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global ground gnd clean"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Earth_Protective_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -4.445) (xy 0.635 -4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -5.08) (xy 0.127 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -3.81)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Earth_Protective_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -5844,12 +5696,6 @@
 		(uuid "acaf4185-2a0e-4bde-9209-1ae62a85e9dd")
 	)
 	(junction
-		(at 292.1 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad06e700-7ea2-4b5e-ac3c-5e89a3b2b961")
-	)
-	(junction
 		(at 85.09 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6065,16 +5911,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 123.19) (xy 292.1 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a8f8044-9654-4dde-ba7d-6bc48391b897")
-	)
-	(wire
-		(pts
 			(xy 135.89 104.14) (xy 143.51 104.14)
 		)
 		(stroke
@@ -6212,16 +6048,6 @@
 			(type default)
 		)
 		(uuid "36ef4051-5b76-4453-8c9b-7070fa67e1a8")
-	)
-	(wire
-		(pts
-			(xy 292.1 128.27) (xy 292.1 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b8225b-78ce-4175-b0f2-e642c29ba16c")
 	)
 	(wire
 		(pts
@@ -6892,16 +6718,6 @@
 			(type default)
 		)
 		(uuid "93a227f0-c7b6-4189-88f7-ee4c38423567")
-	)
-	(wire
-		(pts
-			(xy 287.02 128.27) (xy 292.1 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "940023fb-f384-45f5-80c1-47d88dad5011")
 	)
 	(wire
 		(pts
@@ -7702,16 +7518,6 @@
 			(type default)
 		)
 		(uuid "f5c2641d-f723-4c05-89f7-6f341febe3c4")
-	)
-	(wire
-		(pts
-			(xy 292.1 123.19) (xy 292.1 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f600315e-ba13-494e-8ebc-6d438d4820a3")
 	)
 	(wire
 		(pts
@@ -8613,184 +8419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sheet1-altium-import:HR871210DE")
-		(at 259.08 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1245616a-d414-4868-b75e-4a924a301de4")
-		(property "Reference" "RJ1.1"
-			(at 259.08 78.74 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-			)
-		)
-		(property "Value" "HR871210DE"
-			(at 259.08 82.55 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-			)
-		)
-		(property "Footprint" "Lib4:RJ45-TH_HR871210DE"
-			(at 259.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "HR871210DE"
-			(at 259.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "HANRUN(汉仁)"
-			(at 259.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C19724758"
-			(at 259.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 259.08 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "17a6196a-6101-42fb-98fd-7c583d7faef7")
-		)
-		(pin "4"
-			(uuid "be155733-7173-40b4-a1b2-2d087b4681aa")
-		)
-		(pin "5"
-			(uuid "35e25877-2aab-4976-937c-00f45cb9954e")
-		)
-		(pin "1"
-			(uuid "d4dbbb89-a1c4-4e26-907d-c7192791d25b")
-		)
-		(pin "9"
-			(uuid "31c07ede-2d8f-46e0-90de-be6b4466a2ab")
-		)
-		(pin "10"
-			(uuid "ab50b48f-590c-4b18-ada2-18c8a726ca09")
-		)
-		(pin "12"
-			(uuid "0ad77c25-3e3e-40cb-b417-7784e22840fa")
-		)
-		(pin "6"
-			(uuid "cb5c5852-06a5-443f-be05-4bc4100fbb19")
-		)
-		(pin "3"
-			(uuid "83fa6b97-3fa6-4cad-afb4-b14e675bb029")
-		)
-		(pin "11"
-			(uuid "dc698fdf-d491-4c4e-a8ab-29ac0f22b213")
-		)
-		(pin "2"
-			(uuid "1431c856-b8e6-49c0-a822-33e5116b59cf")
-		)
-		(pin "8"
-			(uuid "ef424b98-01e0-4f2c-b06c-404193fdc17c")
-		)
-		(pin "13"
-			(uuid "e085de90-4094-4300-afc4-017a903f557a")
-		)
-		(pin "14"
-			(uuid "55671075-6887-4682-9a18-247951aa183f")
-		)
-		(pin "P2"
-			(uuid "f761afbd-6ba1-4c0d-886a-08b8d07b2bf7")
-		)
-		(pin "P6"
-			(uuid "11c6eb1c-1bcc-4b02-aefc-a8318d972f12")
-		)
-		(pin "P1"
-			(uuid "020f07c5-b375-42b0-a5d4-020d13455b53")
-		)
-		(pin "P4"
-			(uuid "a38bb1dd-dff6-42cb-bb17-fa5811854e22")
-		)
-		(pin "P7"
-			(uuid "86d7fa37-2a36-415d-8a16-f9bbab013e1e")
-		)
-		(pin "P8"
-			(uuid "54273eff-9bf2-41d0-9350-b16648fb6cb0")
-		)
-		(pin "P9"
-			(uuid "9ea93e20-2fdb-46ce-944a-e05e7d2361ed")
-		)
-		(pin "P3"
-			(uuid "292c4a28-1011-42f2-9c3c-de9a020bf1fd")
-		)
-		(pin "P5"
-			(uuid "8ce828b8-0370-4e9a-8b82-d071297e33dd")
-		)
-		(pin "P12"
-			(uuid "030ca4ab-751a-4bd0-83aa-e3945cdf51ba")
-		)
-		(pin "P11"
-			(uuid "1ce8fa47-2c18-49c0-b3e6-dd70349eda08")
-		)
-		(pin "P10"
-			(uuid "7f301b51-6371-4a7f-8a73-639f9382a00f")
-		)
-		(instances
-			(project "28388bga"
-				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/17fd3f57-3bad-4b3f-9846-9b737a2222f4"
-					(reference "RJ1.1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 246.38 52.07 0)
 		(unit 1)
@@ -8917,71 +8545,6 @@
 			(project "28388bga"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/17fd3f57-3bad-4b3f-9846-9b737a2222f4"
 					(reference "#PWR0249")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth_Protective")
-		(at 292.1 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bad20fb-a0fd-42e2-9030-347d6fc1d535")
-		(property "Reference" "#PWR0263"
-			(at 292.1 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PE_GND"
-			(at 298.45 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 294.64 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
-			(at 292.1 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5baa17ec-e9eb-4a27-8d86-3a2471614d73")
-		)
-		(instances
-			(project "28388bga"
-				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/17fd3f57-3bad-4b3f-9846-9b737a2222f4"
-					(reference "#PWR0263")
 					(unit 1)
 				)
 			)
@@ -16192,6 +15755,186 @@
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/17fd3f57-3bad-4b3f-9846-9b737a2222f4"
 					(reference "#PWR0254")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:HR871210DE")
+		(at 259.08 107.95 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df7a337c-1ddb-45a1-829a-2f685f5f5c4a")
+		(property "Reference" "RJ1.1"
+			(at 283.21 106.0449 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HR871210DE"
+			(at 283.21 109.8549 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Lib4:RJ45-TH_HR871210DE"
+			(at 259.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "HR871210DE"
+			(at 259.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HANRUN(汉仁)"
+			(at 259.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C19724758"
+			(at 259.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 259.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "81c6c33f-b9a2-4493-816b-695c4daac36b")
+		)
+		(pin "4"
+			(uuid "02969f8c-882e-4287-a039-93841ed5f692")
+		)
+		(pin "5"
+			(uuid "7dd21dc3-e277-4041-a40d-41e1242cde06")
+		)
+		(pin "1"
+			(uuid "bdd232a8-6bd0-4885-a33a-6edcdc5591fe")
+		)
+		(pin "9"
+			(uuid "a710f23f-15db-4b62-a757-0538bd3cf3b3")
+		)
+		(pin "10"
+			(uuid "7ca38e2c-3894-4064-aba1-e7550fd700ad")
+		)
+		(pin "12"
+			(uuid "ca14f97f-c627-4709-a08a-63b011a76434")
+		)
+		(pin "6"
+			(uuid "33560939-8097-4362-b884-d36e5511dae6")
+		)
+		(pin "3"
+			(uuid "741f6349-3487-4977-9105-285a899d1032")
+		)
+		(pin "11"
+			(uuid "36b3400e-ff17-4ae6-b0e0-04f9bd20f47e")
+		)
+		(pin "2"
+			(uuid "44cec568-2549-43ed-a41e-feb05d107a51")
+		)
+		(pin "8"
+			(uuid "df88819c-5491-4182-acda-585c97ffc420")
+		)
+		(pin "13"
+			(uuid "cc1fdb59-ead3-4bdc-aea4-0a90537a23eb")
+		)
+		(pin "14"
+			(uuid "ae1e9da1-5442-4052-bf81-8b4b5da9fe10")
+		)
+		(pin "P2"
+			(uuid "f7ee0432-5ec5-4155-9f89-7ca3b3ed29df")
+		)
+		(pin "P6"
+			(uuid "ed1f93fb-9931-4a33-8ebf-b7479d4b5700")
+		)
+		(pin "P1"
+			(uuid "7c99e6f0-44ca-48e6-92f1-5e16a81be618")
+		)
+		(pin "P4"
+			(uuid "b15e0776-cb7d-4fdd-b7aa-640fd56a1f28")
+		)
+		(pin "P7"
+			(uuid "0c3e0d22-62ee-4755-a078-d303f96f9997")
+		)
+		(pin "P8"
+			(uuid "57858a5d-2836-4405-b348-a567e11f830c")
+		)
+		(pin "P9"
+			(uuid "711bc88b-ebe5-4cf7-8a75-10053f2709da")
+		)
+		(pin "P3"
+			(uuid "7c727cc9-78d5-41a9-941f-c71838e2b080")
+		)
+		(pin "P5"
+			(uuid "bc382a19-ec8d-4087-8c84-c513330ba6da")
+		)
+		(pin "P12"
+			(uuid "ee04b9a3-2035-47ed-8b9f-8038acad63b8")
+		)
+		(pin "P11"
+			(uuid "3c84311b-8c71-4ebe-bb27-2164f191a22e")
+		)
+		(pin "P10"
+			(uuid "954462a6-5be2-40ae-984f-54ac0c00b1ec")
+		)
+		(instances
+			(project "28388bga"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/17fd3f57-3bad-4b3f-9846-9b737a2222f4"
+					(reference "RJ1.1")
+					(unit 2)
 				)
 			)
 		)
