@@ -6531,8 +6531,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28c9c816-28eb-4d56-a3ff-fa7f7715798f")
-		(property "Reference" "#PWR0445"
-			(at 135.89 104.14 0)
+		(property "Reference" "#PWR445"
+			(at 135.89 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,14 +6540,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 138.43 110.744 0)
+		(property "Value" "GND"
+			(at 135.89 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6583,11 +6581,11 @@
 		(instances
 			(project "28388bga"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/b1d8f62e-8e7d-4d1c-ae44-e51a79ec0caa"
-					(reference "#PWR0445")
+					(reference "#PWR445")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/e5b9647e-3d6c-4de7-89bf-da21707104e7"
-					(reference "#PWR0461")
+					(reference "#PWR461")
 					(unit 1)
 				)
 			)
@@ -8063,8 +8061,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6dbd0f74-07fc-4036-b526-33ef78d00679")
-		(property "Reference" "#PWR0442"
-			(at 97.79 118.11 0)
+		(property "Reference" "#PWR442"
+			(at 97.79 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8072,13 +8070,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 97.79 125.984 0)
+		(property "Value" "GND"
+			(at 97.79 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8114,11 +8111,11 @@
 		(instances
 			(project "28388bga"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/b1d8f62e-8e7d-4d1c-ae44-e51a79ec0caa"
-					(reference "#PWR0442")
+					(reference "#PWR442")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/e5b9647e-3d6c-4de7-89bf-da21707104e7"
-					(reference "#PWR0458")
+					(reference "#PWR458")
 					(unit 1)
 				)
 			)
@@ -9009,8 +9006,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89d4275b-5a81-4909-922d-c670946516b1")
-		(property "Reference" "#PWR0444"
-			(at 130.81 76.2 0)
+		(property "Reference" "#PWR444"
+			(at 130.81 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9018,14 +9015,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 133.35 82.804 0)
+		(property "Value" "GND"
+			(at 130.81 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9061,11 +9056,11 @@
 		(instances
 			(project "28388bga"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/b1d8f62e-8e7d-4d1c-ae44-e51a79ec0caa"
-					(reference "#PWR0444")
+					(reference "#PWR444")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/e5b9647e-3d6c-4de7-89bf-da21707104e7"
-					(reference "#PWR0460")
+					(reference "#PWR460")
 					(unit 1)
 				)
 			)
@@ -9323,8 +9318,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98acd1db-e17a-474d-8301-8a2e8c5b32f1")
-		(property "Reference" "#PWR0443"
-			(at 100.33 66.04 0)
+		(property "Reference" "#PWR443"
+			(at 100.33 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,14 +9327,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 102.87 72.644 0)
+		(property "Value" "GND"
+			(at 100.33 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9375,11 +9368,11 @@
 		(instances
 			(project "28388bga"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/b1d8f62e-8e7d-4d1c-ae44-e51a79ec0caa"
-					(reference "#PWR0443")
+					(reference "#PWR443")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/e5b9647e-3d6c-4de7-89bf-da21707104e7"
-					(reference "#PWR0459")
+					(reference "#PWR459")
 					(unit 1)
 				)
 			)
@@ -9394,8 +9387,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98da26f2-86a4-4a0d-9191-c55f6afe57a5")
-		(property "Reference" "#PWR0454"
-			(at 218.44 104.14 0)
+		(property "Reference" "#PWR454"
+			(at 218.44 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9403,14 +9396,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 220.98 110.744 0)
+		(property "Value" "GND"
+			(at 218.44 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9446,11 +9437,11 @@
 		(instances
 			(project "28388bga"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/b1d8f62e-8e7d-4d1c-ae44-e51a79ec0caa"
-					(reference "#PWR0454")
+					(reference "#PWR454")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/e5b9647e-3d6c-4de7-89bf-da21707104e7"
-					(reference "#PWR0470")
+					(reference "#PWR470")
 					(unit 1)
 				)
 			)
@@ -9465,8 +9456,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3e70f56-c873-41b7-9fc5-7606bba15157")
-		(property "Reference" "#PWR0448"
-			(at 148.59 111.76 0)
+		(property "Reference" "#PWR448"
+			(at 148.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9474,14 +9465,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 151.13 118.364 0)
+		(property "Value" "GND"
+			(at 148.59 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9517,11 +9506,11 @@
 		(instances
 			(project "28388bga"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/b1d8f62e-8e7d-4d1c-ae44-e51a79ec0caa"
-					(reference "#PWR0448")
+					(reference "#PWR448")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/e5b9647e-3d6c-4de7-89bf-da21707104e7"
-					(reference "#PWR0464")
+					(reference "#PWR464")
 					(unit 1)
 				)
 			)
@@ -9779,8 +9768,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc4b1f11-4bbc-4ad6-a17a-f267800512f9")
-		(property "Reference" "#PWR0453"
-			(at 205.74 91.44 0)
+		(property "Reference" "#PWR453"
+			(at 212.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9788,14 +9777,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 212.344 88.9 0)
+		(property "Value" "GND"
+			(at 209.55 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9831,11 +9818,11 @@
 		(instances
 			(project "28388bga"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/b1d8f62e-8e7d-4d1c-ae44-e51a79ec0caa"
-					(reference "#PWR0453")
+					(reference "#PWR453")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/e5b9647e-3d6c-4de7-89bf-da21707104e7"
-					(reference "#PWR0469")
+					(reference "#PWR469")
 					(unit 1)
 				)
 			)
@@ -10093,8 +10080,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c91436c7-3d30-4de7-a06f-dcb22ca87c8f")
-		(property "Reference" "#PWR0451"
-			(at 166.37 111.76 0)
+		(property "Reference" "#PWR451"
+			(at 166.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10102,14 +10089,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 168.91 118.364 0)
+		(property "Value" "GND"
+			(at 166.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10145,11 +10130,11 @@
 		(instances
 			(project "28388bga"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/b1d8f62e-8e7d-4d1c-ae44-e51a79ec0caa"
-					(reference "#PWR0451")
+					(reference "#PWR451")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/e5b9647e-3d6c-4de7-89bf-da21707104e7"
-					(reference "#PWR0467")
+					(reference "#PWR467")
 					(unit 1)
 				)
 			)
@@ -10164,8 +10149,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cea23cbd-df99-44fe-abc4-bd6cf46f699c")
-		(property "Reference" "#PWR0450"
-			(at 160.02 48.26 0)
+		(property "Reference" "#PWR450"
+			(at 160.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,14 +10158,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 162.56 54.864 0)
+		(property "Value" "GND"
+			(at 160.02 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10216,11 +10199,11 @@
 		(instances
 			(project "28388bga"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/b1d8f62e-8e7d-4d1c-ae44-e51a79ec0caa"
-					(reference "#PWR0450")
+					(reference "#PWR450")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/e5b9647e-3d6c-4de7-89bf-da21707104e7"
-					(reference "#PWR0466")
+					(reference "#PWR466")
 					(unit 1)
 				)
 			)
@@ -10835,8 +10818,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f513989a-7a07-4147-80a4-6f07d10137ca")
-		(property "Reference" "#PWR0452"
-			(at 176.53 111.76 0)
+		(property "Reference" "#PWR452"
+			(at 176.53 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10844,14 +10827,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 179.07 118.364 0)
+		(property "Value" "GND"
+			(at 176.53 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10887,11 +10868,11 @@
 		(instances
 			(project "28388bga"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/b1d8f62e-8e7d-4d1c-ae44-e51a79ec0caa"
-					(reference "#PWR0452")
+					(reference "#PWR452")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/e5b9647e-3d6c-4de7-89bf-da21707104e7"
-					(reference "#PWR0468")
+					(reference "#PWR468")
 					(unit 1)
 				)
 			)
