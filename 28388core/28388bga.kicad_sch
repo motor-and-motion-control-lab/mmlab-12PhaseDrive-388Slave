@@ -3911,148 +3911,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -17476,8 +17334,8 @@
 		(uuid 3472daa7-869a-476c-a1e3-beafb1f63179)
 	)
 	(rectangle
-		(start 295.91 134.62)
-		(end 346.075 210.185)
+		(start 293.37 167.64)
+		(end 343.535 205.74)
 		(stroke
 			(width 0)
 			(type default)
@@ -17486,19 +17344,6 @@
 			(type none)
 		)
 		(uuid 3ed40c99-2144-402f-bd4a-fd0ae4b1e1a8)
-	)
-	(rectangle
-		(start 162.56 136.525)
-		(end 224.79 211.455)
-		(stroke
-			(width 0.7)
-			(type default)
-			(color 74 134 232 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 568aa6b1-4c7c-48eb-84cc-522522235589)
 	)
 	(rectangle
 		(start 252.73 80.01)
@@ -17753,25 +17598,13 @@
 	)
 	(text "PE螺丝孔\n"
 		(exclude_from_sim no)
-		(at 303.784 169.418 0)
+		(at 301.244 202.438 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "cdfce4d7-6ada-471a-bd61-db83b92781d5")
-	)
-	(text "POWER 电源进！"
-		(exclude_from_sim no)
-		(at 169.926 153.924 0)
-		(effects
-			(font
-				(size 3.302 3.302)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e7858b2e-7f22-47f8-a110-cdef0b165f85")
 	)
 	(text "place near 28388\n"
 		(exclude_from_sim no)
@@ -18534,7 +18367,7 @@
 		(uuid "a8c76730-1948-40ce-bcd8-517115823743")
 	)
 	(junction
-		(at 313.69 140.97)
+		(at 311.15 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9872143-c763-4c42-b967-018b57c2c58c")
@@ -19229,16 +19062,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 168.91) (xy 186.69 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0286548b-e4b3-49a8-9572-d640b16c6d21")
-	)
-	(wire
-		(pts
 			(xy 356.87 95.25) (xy 359.41 95.25)
 		)
 		(stroke
@@ -19659,7 +19482,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 148.59) (xy 313.69 148.59)
+			(xy 314.96 181.61) (xy 311.15 181.61)
 		)
 		(stroke
 			(width 0)
@@ -21119,7 +20942,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 140.97) (xy 317.5 140.97)
+			(xy 311.15 173.99) (xy 314.96 173.99)
 		)
 		(stroke
 			(width 0)
@@ -22319,16 +22142,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 168.91) (xy 186.69 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44ea0e83-5200-4a8e-a944-13024e639c87")
-	)
-	(wire
-		(pts
 			(xy 529.59 92.71) (xy 542.29 92.71)
 		)
 		(stroke
@@ -22919,7 +22732,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 140.97) (xy 313.69 140.97)
+			(xy 300.99 173.99) (xy 311.15 173.99)
 		)
 		(stroke
 			(width 0)
@@ -23206,16 +23019,6 @@
 			(type default)
 		)
 		(uuid "56ba50d0-29e3-4593-b862-e32ffe987ac4")
-	)
-	(wire
-		(pts
-			(xy 186.69 166.37) (xy 186.69 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "573009de-7416-4100-bc06-23c878c131f1")
 	)
 	(wire
 		(pts
@@ -28169,7 +27972,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 140.97) (xy 313.69 148.59)
+			(xy 311.15 173.99) (xy 311.15 181.61)
 		)
 		(stroke
 			(width 0)
@@ -29019,16 +28822,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 166.37) (xy 186.69 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d17801fa-e7af-45eb-b12e-438399cbac28")
-	)
-	(wire
-		(pts
 			(xy 744.22 41.91) (xy 744.22 44.45)
 		)
 		(stroke
@@ -29099,7 +28892,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 157.48) (xy 303.53 140.97)
+			(xy 300.99 190.5) (xy 300.99 173.99)
 		)
 		(stroke
 			(width 0)
@@ -38359,7 +38152,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth_Protective")
-		(at 303.53 157.48 270)
+		(at 300.99 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38367,7 +38160,7 @@
 		(dnp no)
 		(uuid "18f46c0c-e538-45ca-876c-dd26f14f6c35")
 		(property "Reference" "#PWR0100"
-			(at 303.53 157.48 0)
+			(at 300.99 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38376,7 +38169,7 @@
 			)
 		)
 		(property "Value" "PE_GND"
-			(at 297.18 157.48 0)
+			(at 294.64 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38384,7 +38177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 300.99 157.48 0)
+			(at 298.45 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38393,7 +38186,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 300.99 157.48 0)
+			(at 298.45 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38402,7 +38195,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
-			(at 303.53 157.48 0)
+			(at 300.99 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39958,7 +39751,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 320.04 148.59 270)
+		(at 317.5 181.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -39967,7 +39760,7 @@
 		(fields_autoplaced yes)
 		(uuid "2aab3b95-b03f-452d-bb2d-bbc93116d74d")
 		(property "Reference" "H2"
-			(at 323.85 147.3199 90)
+			(at 321.31 180.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39976,7 +39769,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 323.85 149.8599 90)
+			(at 321.31 182.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39985,7 +39778,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 320.04 148.59 0)
+			(at 317.5 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39994,7 +39787,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 320.04 148.59 0)
+			(at 317.5 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40003,7 +39796,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 320.04 148.59 0)
+			(at 317.5 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47519,71 +47312,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sheet1-altium-import:AVDD")
-		(at 186.69 165.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cbfce5d-80bc-4cdc-b8a6-2febb9efbd95")
-		(property "Reference" "#PWR088"
-			(at 186.69 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "D+5V"
-			(at 186.69 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "电源符号创建名为 'AVDD' 的全局标签"
-			(at 186.69 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "fde9ba74-ef3d-4278-be61-d32fdcbf7517")
-		)
-		(instances
-			(project "28388bga"
-				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 411.48 339.09 270)
 		(unit 1)
@@ -50463,7 +50191,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 320.04 140.97 270)
+		(at 317.5 173.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -50472,7 +50200,7 @@
 		(fields_autoplaced yes)
 		(uuid "853cd2b4-703a-46ba-ae8f-348fb2690d94")
 		(property "Reference" "H1"
-			(at 323.85 139.6999 90)
+			(at 321.31 172.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50481,7 +50209,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 323.85 142.2399 90)
+			(at 321.31 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50490,7 +50218,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 320.04 140.97 0)
+			(at 317.5 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50499,7 +50227,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 320.04 140.97 0)
+			(at 317.5 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50508,7 +50236,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 320.04 140.97 0)
+			(at 317.5 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56750,71 +56478,6 @@
 			(project ""
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
 					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b47538b6-43cb-4f2d-b241-89c54c8e3287")
-		(property "Reference" "#PWR089"
-			(at 186.69 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0ec1539-cffc-4e5c-9ed7-710df4806ce8")
-		)
-		(instances
-			(project "28388bga"
-				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
-					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -64084,76 +63747,6 @@
 			(project "28388bga"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
 					(reference "#PWR0151")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 195.58 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f76d2e12-5770-4225-976a-50c624167aa8")
-		(property "Reference" "J1"
-			(at 198.12 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 198.12 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1mmlab_footprint:CONN-TH_2P-P2.54_DIBO_DB141R-2.54-2P"
-			(at 195.58 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 195.58 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ff841b20-3fd8-4364-8537-e62a68f32b82")
-		)
-		(pin "1"
-			(uuid "08ea3b7c-1bee-491d-aa52-d71da085329b")
-		)
-		(instances
-			(project ""
-				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
-					(reference "J1")
 					(unit 1)
 				)
 			)
