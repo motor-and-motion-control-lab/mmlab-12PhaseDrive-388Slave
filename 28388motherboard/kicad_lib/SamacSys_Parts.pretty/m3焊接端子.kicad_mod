@@ -1,0 +1,222 @@
+(footprint "m3焊接端子"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -14 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4741833e-78e2-4ffe-9b8d-6764e32296a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "m3焊接端子"
+		(at -14 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "546cf238-17eb-4dd5-96b6-4269dd8f2c6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -14 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73233573-9c51-45cb-9189-04f9af1fa2c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -14 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79d8be3f-afeb-4a32-80d1-f0ee654ec943")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -14 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e445a58a-1ca3-46f9-83a1-9c18a2084fc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4 0)
+		(end 4 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04552e22-e9d7-4d8a-9593-4af056ee9921")
+	)
+	(fp_line
+		(start -4 10.1)
+		(end -4 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b657935-b1c9-43b0-ab5d-da3402ccf11d")
+	)
+	(fp_line
+		(start -4 10.1)
+		(end 4 10.1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17130584-5ed0-4fc2-b884-5e230fb2454d")
+	)
+	(fp_line
+		(start 4 10.1)
+		(end 4 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4f65d66-fd8b-4334-a1bc-52215016ad86")
+	)
+	(fp_circle
+		(center 0 5.05)
+		(end 2.2 5.05)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "00ded9b5-9b36-4465-929c-093bfcdad0eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -14 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "800cfea4-6f02-4b1f-87d4-2b8b6a642b49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 1.5)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "68281786-5bea-4bdd-acf0-4f9e576012de")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 8.7)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "14bfc336-38e8-4583-8c2d-21879fb9d962")
+	)
+	(pad "1" thru_hole circle
+		(at 2.5 1.5)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "93dd8eeb-13c6-4033-971d-e9b6091b00dc")
+	)
+	(pad "1" thru_hole circle
+		(at 2.5 8.7)
+		(size 2.4 2.4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "68823644-e38d-436f-a5af-e154868a0d5a")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "82eb8711-7b37-463a-8442-29fc66d6d7ed")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "9aa8adb0-1e36-421f-b657-b6dd537525b5")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+	)
+	(model "D:/Shanghaitech/mmlab/kicad_lib/焊接端子m3.stp"
+		(offset
+			(xyz 0 -5 -5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

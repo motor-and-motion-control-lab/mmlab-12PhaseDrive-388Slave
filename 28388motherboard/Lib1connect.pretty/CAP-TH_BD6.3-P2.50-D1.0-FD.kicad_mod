@@ -1,0 +1,345 @@
+(footprint "CAP-TH_BD6.3-P2.50-D1.0-FD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.254 -4.4704 0)
+		(layer "F.SilkS")
+		(uuid "242038db-f021-4cbb-bc0b-bb16c40a0952")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Value" "100uF"
+		(at -0.254 -6.2484 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1969d600-ac11-4c34-ba08-763d32f2ed15")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "725923b3-583a-41de-989b-0ac12d65a3e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbddf393-ca35-41ad-b4e8-4f39d864b2e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "ERS1VM101E12OT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9047937f-dfc8-487d-90c4-262599fcbe12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "AISHI(艾华集团)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c5df873-6e6d-499c-b9e4-95662d427c08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part" "C106694"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98756a0a-d5b4-4296-9300-8949238bd052")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "225d7fbf-b5ec-4803-97d0-1c4ac1337846")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.778 -1.524)
+		(end -0.762 -1.524)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9170e511-eef7-4a4a-b3ac-ed753303fe0b")
+	)
+	(fp_line
+		(start -1.27 -2.032)
+		(end -1.27 -1.016)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca47c07c-6c65-41f1-ae11-a74e505a12f7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.1496 0)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9a182cab-1ed7-491f-96d8-11938fed1422")
+	)
+	(fp_circle
+		(center -1.27 0)
+		(end -1.1199 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "0cd9d2cb-1d6b-4db0-a12b-67567691ae9b")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 1.4201 0)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "9382ec0f-0fa9-497e-baa6-b16526f484f9")
+	)
+	(fp_circle
+		(center -3.1501 3.1501)
+		(end -3.1201 3.1501)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(fill no)
+		(layer "User.5")
+		(uuid "76be49d6-de2c-47e5-8248-fa5dcef53cca")
+	)
+	(pad "1" thru_hole oval
+		(at -1.27 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "efabcdc9-7dbc-49fc-b8a8-bb26a0df25c3")
+	)
+	(pad "2" thru_hole oval
+		(at 1.27 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "553fe529-9c10-4c6d-acf6-b61f95774bb0")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "172c2b76-e87b-4d32-aee0-8ae50ad45829")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start 2.159 -2.286)
+					(mid 3.175016 0)
+					(end 2.159 2.286)
+				)
+			)
+		)
+		(filled_polygon
+			(layer "F.SilkS")
+			(island)
+			(pts
+				(arc
+					(start 2.159 -2.286)
+					(mid 3.175016 0)
+					(end 2.159 2.286)
+				)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "Dwgs.User")
+		(uuid "350bed23-cea6-409f-b99b-d842e21b04d3")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2 -1.7) (xy -0.5 -1.7) (xy -0.5 -1.4) (xy -2 -1.4)
+			)
+		)
+		(filled_polygon
+			(layer "Dwgs.User")
+			(island)
+			(pts
+				(xy -2 -1.7) (xy -0.5 -1.7) (xy -0.5 -1.4) (xy -2 -1.4)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "Dwgs.User")
+		(uuid "195d5038-209c-44b0-b838-9a849672368b")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.381 -0.7519) (xy -1.381 -2.2519) (xy -1.081 -2.2519) (xy -1.081 -0.7519)
+			)
+		)
+		(filled_polygon
+			(layer "Dwgs.User")
+			(island)
+			(pts
+				(xy -1.381 -0.7519) (xy -1.381 -2.2519) (xy -1.081 -2.2519) (xy -1.081 -0.7519)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "User.3")
+		(uuid "38d57c05-3cd4-4c33-8b11-b1f7609a4369")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start -3.15 0)
+					(mid 0 -3.15)
+					(end 3.15 0)
+				)
+				(arc
+					(start 3.15 0)
+					(mid 0 3.15)
+					(end -3.15 0)
+				)
+			)
+		)
+		(filled_polygon
+			(layer "User.3")
+			(island)
+			(pts
+				(arc
+					(start -3.15 0)
+					(mid 0 -3.15)
+					(end 3.15 0)
+				)
+				(arc
+					(start 3.15 0)
+					(mid 0 3.15)
+					(end -3.15 0)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/EASYEDA_MODELS/CAP-TH_BD6.3-P2.50-D1.0-FD.step"
+		(offset
+			(xyz -0 -0 -3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -133,82 +133,6 @@
 		(layer "F.SilkS")
 		(uuid "c32c0260-bce2-4b85-a428-291a93f47785")
 	)
-	(fp_circle
-		(center -6.95 1.25)
-		(end -6.825 1.25)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "0aa07143-c8ea-456b-8957-32a1ade78764")
-	)
-	(fp_circle
-		(center -6.95 1.25)
-		(end -6.825 1.25)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "5a42ce65-4671-4274-9e15-e5bb98198f2b")
-	)
-	(fp_circle
-		(center 6.95 1.25)
-		(end 7.075 1.25)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "84be235c-2efc-4777-a1f8-364365995692")
-	)
-	(fp_circle
-		(center 6.95 1.25)
-		(end 7.075 1.25)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "c1e8f597-d68c-4862-9284-2571cb6ba013")
-	)
-	(fp_poly
-		(pts
-			(xy -6.62778 1.207579) (xy -6.649739 1.125628) (xy -6.69216 1.052153) (xy -6.752153 0.99216) (xy -6.825628 0.949739)
-			(xy -6.907579 0.92778) (xy -6.992421 0.92778) (xy -7.074372 0.949739) (xy -7.147847 0.99216) (xy -7.20784 1.052153)
-			(xy -7.250261 1.125628) (xy -7.27222 1.207579) (xy -7.27222 1.292421) (xy -7.250261 1.374372) (xy -7.20784 1.447847)
-			(xy -7.147847 1.50784) (xy -7.074372 1.550261) (xy -6.992421 1.57222) (xy -6.907579 1.57222) (xy -6.825628 1.550261)
-			(xy -6.752153 1.50784) (xy -6.69216 1.447847) (xy -6.649739 1.374372) (xy -6.62778 1.292421)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "Edge.Cuts")
-		(uuid "5f85e17d-669f-42ec-94de-c9fe083e9490")
-	)
-	(fp_poly
-		(pts
-			(xy 7.27222 1.207579) (xy 7.250261 1.125628) (xy 7.20784 1.052153) (xy 7.147847 0.99216) (xy 7.074372 0.949739)
-			(xy 6.992421 0.92778) (xy 6.907579 0.92778) (xy 6.825628 0.949739) (xy 6.752153 0.99216) (xy 6.69216 1.052153)
-			(xy 6.649739 1.125628) (xy 6.62778 1.207579) (xy 6.62778 1.292421) (xy 6.649739 1.374372) (xy 6.69216 1.447847)
-			(xy 6.752153 1.50784) (xy 6.825628 1.550261) (xy 6.907579 1.57222) (xy 6.992421 1.57222) (xy 7.074372 1.550261)
-			(xy 7.147847 1.50784) (xy 7.20784 1.447847) (xy 7.250261 1.374372) (xy 7.27222 1.292421)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "Edge.Cuts")
-		(uuid "31715fe4-f7f0-4541-9447-eabed94e6f6e")
-	)
 	(fp_poly
 		(pts
 			(xy -6.1 -2.6) (xy -5.9 -2.6) (xy -5.9 -1.4) (xy -6.1 -1.4)
@@ -861,6 +785,20 @@
 		(fill yes)
 		(layer "User.3")
 		(uuid "ad82caab-a548-4d92-86fb-666eaf4c3bdf")
+	)
+	(pad "" np_thru_hole circle
+		(at -6.948878 1.249759)
+		(size 0.1 0.1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "115f9641-67ab-4cc2-9e34-4f4fa03282e9")
+	)
+	(pad "" np_thru_hole circle
+		(at 6.95 1.25)
+		(size 0.1 0.1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9e057fa7-f11d-4bca-8e4b-ef673f6fe77f")
 	)
 	(pad "1" smd rect
 		(at -6 2)

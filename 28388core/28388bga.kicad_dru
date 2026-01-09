@@ -1,0 +1,57 @@
+(version 1)
+
+
+
+
+#BGA区域规则
+(rule "BGA Clearance"
+    (condition "A.intersectsArea('BGA')")
+	(condition "A.Type=='Track' && B.Type=='Pad'")
+    (constraint clearance (min 0.21mm))
+)
+
+
+(rule "BGA Clearance"
+    (condition "A.intersectsArea('BGA')")
+	(condition "A.Type=='Track' && B.Type=='Via'")
+    (constraint clearance (min 0.21mm))
+)
+
+(rule "BGA Clearance"
+    (condition "A.intersectsArea('BGA')")
+	(condition "A.Type=='Track' && B.Type=='Track'")
+    (constraint clearance (min 0.21mm))
+)
+(rule "BGA Track Width"
+    (condition "A.intersectsArea('BGA')")
+    (constraint track_width (min 0.15mm) (opt 0.15mm))
+)
+
+(rule "Track to Track Clearance"
+    (condition "A.Type=='Track' && B.Type=='Track'")
+    (constraint clearance (min 0.3mm))
+)
+
+
+(rule "Clearance"
+	(condition "A.Type=='Track' && B.Type=='Pad'")
+    (constraint clearance (min 0.3mm))
+)
+
+
+(rule "Clearance"
+	(condition "A.Type=='Track' && B.Type=='Via'")
+    (constraint clearance (min 0.3mm))
+)
+
+
+(rule "Clearance_pe"
+	(condition "A.NetName=='PE_GND' && B.NetName=='GND'")
+    (constraint clearance (min 2mm))
+)
+
+
+(rule "Clearance_pe2"
+	(condition "A.NetName=='PE_GND' && B.NetName=='+3V3D_DSP'")
+    (constraint clearance (min 2mm))
+)
