@@ -3,55 +3,128 @@
 
 
 
+#BGA以外规则
+
+
+
+
+
+#表层线宽
+(rule " Track Width1"
+    (condition "A.Layer_Top && B.Layer_Bottom")
+    (constraint track_width (min 0.185mm) (opt 0.185mm))
+)
+
+#走线线距
+(rule "Track to Track Clearance0"
+    (condition "A.Type=='Track' && B.Type=='Track'")
+    (constraint clearance (min 0.265mm))
+)
+
+#走线到焊盘距离
+(rule "Clearance"
+	(condition "A.Type=='Track' && B.Type=='Pad'")
+    (constraint clearance (min 0.3mm))
+)
+
+#走线到过孔距离
+(rule "Clearance"
+	(condition "A.Type=='Track' && B.Type=='Via'")
+    (constraint clearance (min 0.3mm))
+)
+
+
+
+
+
+(rule "Clearance_GND1"
+	(condition "A.NetName=='GND' && B.NetName=='D+5V'")
+    (constraint clearance (min 0.3mm))
+)
+
+
+
+
+
+
+(rule "Clearance_GND2"
+	(condition "A.NetName=='D+5V' && B.NetName=='+3V3D_DSP'")
+    (constraint clearance (min 0.3mm))
+)
+
+
+
+
+
+
+
+
+(rule "Clearance_GND3"
+   
+	(condition "A.NetName=='+3V3_DSP' && B.NetName=='+1V2_DSP'")
+    (constraint clearance (min 0.3mm))
+)
+
+#(rule "Clearance_10"
+#(condition "A.Layer_Top && B.Layer_Bottom")
+#	(condition "A.Type=='Track' && B.Type=='Zone'")
+#    (constraint clearance (min 0.3mm))
+#)
+
+(rule "DIFF1"
+    (condition "A.inDiffPair('DIFF1')")
+	(condition "A.Type=='Zone'")
+    (constraint clearance (min 0.3mm))
+)
+
+(rule "DIFF2"
+    (condition "A.inDiffPair('DIFF2')")
+	(condition "A.Type=='Zone'")
+    (constraint clearance (min 0.3mm))
+)
 #BGA区域规则
-(rule "BGA Clearance"
+(rule "BGA Clearance1"
     (condition "A.intersectsArea('BGA')")
 	(condition "A.Type=='Track' && B.Type=='Pad'")
-    (constraint clearance (min 0.21mm))
+    (constraint clearance (min 0.2mm))
 )
 
-
-(rule "BGA Clearance"
+(rule "BGA Clearance2"
     (condition "A.intersectsArea('BGA')")
 	(condition "A.Type=='Track' && B.Type=='Via'")
-    (constraint clearance (min 0.21mm))
+    (constraint clearance (min 0.2mm))
 )
 
-(rule "BGA Clearance"
+
+
+(rule "BGA Clearance3"
     (condition "A.intersectsArea('BGA')")
 	(condition "A.Type=='Track' && B.Type=='Track'")
-    (constraint clearance (min 0.21mm))
+    (constraint clearance (min 0.2mm))
 )
-(rule "BGA Track Width"
+
+(rule "BGA Clearance4"
     (condition "A.intersectsArea('BGA')")
-    (constraint track_width (min 0.15mm) (opt 0.15mm))
-)
-
-(rule "Track to Track Clearance"
-    (condition "A.Type=='Track' && B.Type=='Track'")
-    (constraint clearance (min 0.3mm))
+	(condition "A.Type=='Via' && B.Type=='Zone'")
+    (constraint clearance (min 0.2mm))
 )
 
 
-(rule "Clearance"
-	(condition "A.Type=='Track' && B.Type=='Pad'")
-    (constraint clearance (min 0.3mm))
-)
-
-
-(rule "Clearance"
-	(condition "A.Type=='Track' && B.Type=='Via'")
-    (constraint clearance (min 0.3mm))
-)
-
-
-(rule "Clearance_pe"
+#PE到GND距离2mm以上
+(rule "Clearance_pe1"
 	(condition "A.NetName=='PE_GND' && B.NetName=='GND'")
     (constraint clearance (min 2mm))
 )
 
-
+#PE到+3V3D_DSP 距离2.5mm以上
 (rule "Clearance_pe2"
 	(condition "A.NetName=='PE_GND' && B.NetName=='+3V3D_DSP'")
-    (constraint clearance (min 2mm))
+    (constraint clearance (min 2.5mm))
 )
+
+# 允许连接器的丝印与板边相交
+(rule silk_board_edge_clearance
+    (constraint silk_clearance)
+    (severity ignore)
+    (condition "A.memberOfFootprint('J*') && B.Layer=='Edge.Cuts'"))
+
