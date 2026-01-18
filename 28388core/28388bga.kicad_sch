@@ -14691,6 +14691,16 @@
 		)
 		(uuid "7eab18a3-5883-4d4a-8ec2-94f036a121ec")
 	)
+	(text "37 PINs GPIO FOR EtherCAT\n\n"
+		(exclude_from_sim no)
+		(at 257.81 269.494 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "81325e58-9241-453e-b716-7bfee14ca27e")
+	)
 	(text "GNDbetweenPEGND RCD"
 		(exclude_from_sim no)
 		(at 230.124 208.28 0)
