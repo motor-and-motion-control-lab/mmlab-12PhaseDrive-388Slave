@@ -4834,8 +4834,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R361")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -5077,8 +5085,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R360")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -5146,8 +5162,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "#PWR0530")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -5389,8 +5413,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "C216")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -5632,8 +5664,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R338")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -5701,8 +5741,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "#PWR0552")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -5816,8 +5864,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "D?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "D17")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "D?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -6059,8 +6115,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R333")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -6302,8 +6366,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R339")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -6545,8 +6617,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "C222")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -6788,8 +6868,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R345")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -7032,8 +7120,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R328")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -7275,8 +7371,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "C209")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -7508,8 +7612,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "C224")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -7751,8 +7863,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R352")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -7994,8 +8114,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R342")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -8063,8 +8191,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "#PWR0539")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -8132,8 +8268,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "#PWR0540")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -8375,8 +8519,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R335")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -8444,8 +8596,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "#PWR0549")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -8687,8 +8847,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "C212")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -8930,8 +9098,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "C204")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -9173,8 +9349,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R356")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -9416,8 +9600,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R332")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -9569,8 +9761,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "Q?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "Q55")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "Q?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -9812,8 +10012,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R329")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -9881,8 +10089,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "#PWR0534")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -9950,8 +10166,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "#PWR0536")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -10193,8 +10417,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "C207")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -10262,8 +10494,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "#PWR0543")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -10505,8 +10745,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R357")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -10748,8 +10996,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "C220")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -10991,8 +11247,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R349")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -11234,8 +11498,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R348")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -11478,8 +11750,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "C210")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -11593,8 +11873,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "D?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "D15")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "D?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -11836,8 +12124,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "C217")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -11951,8 +12247,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "D?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "D19")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "D?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -12069,9 +12373,17 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "L?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "L25")
 					(unit 0)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "L?")
+					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
 					(reference "L24")
@@ -12138,8 +12450,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "#PWR0554")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -12381,8 +12701,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R344")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -12499,9 +12827,17 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "L?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "L23")
 					(unit 0)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "L?")
+					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
 					(reference "L22")
@@ -12616,9 +12952,17 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "L?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "L27")
 					(unit 0)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "L?")
+					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
 					(reference "L26")
@@ -12685,8 +13029,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "#PWR0528")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -12928,8 +13280,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "R354")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
@@ -12997,8 +13357,16 @@
 		)
 		(instances
 			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/11e62e4f-bbb8-4196-866e-6e1d25a2ef17"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/25ebbb09-aa60-4cf8-9629-d84decd73add"
 					(reference "#PWR0532")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6b1308b6-a419-4bcc-b26f-4baa5b5d8823"
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/fce92fd1-9158-4ee9-a4a3-6664d7627dc7"
