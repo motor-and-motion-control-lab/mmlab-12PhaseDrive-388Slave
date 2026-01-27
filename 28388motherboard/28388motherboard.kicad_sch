@@ -7417,6 +7417,111 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sheet1-altium-import:RES_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10K/1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "ProPrj_bte-easyedapro:"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RES_2_1_0"
+				(rectangle
+					(start 0 -1.778)
+					(end 5.08 -3.302)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sheet1-altium-import:RES_4"
 			(pin_numbers
 				(hide yes)
@@ -11320,10 +11425,6 @@
 		(uuid "be7c5433-e01b-4382-ad24-54aa857fea03")
 	)
 	(no_connect
-		(at 679.45 312.42)
-		(uuid "ca62cae8-92eb-4f6e-8361-52e60e36048f")
-	)
-	(no_connect
 		(at 278.13 469.9)
 		(uuid "d46be730-2bbb-4ee6-b3c8-0add311c3258")
 	)
@@ -11582,6 +11683,16 @@
 			(type default)
 		)
 		(uuid "07acfcb8-dbf9-4441-929b-8673d9d9eeac")
+	)
+	(wire
+		(pts
+			(xy 118.11 309.88) (xy 123.19 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f135e3-cb2c-49cc-8104-888efaecd66c")
 	)
 	(wire
 		(pts
@@ -12192,6 +12303,16 @@
 			(type default)
 		)
 		(uuid "1aea026b-cc0a-471d-90a2-996e9690ee16")
+	)
+	(wire
+		(pts
+			(xy 208.28 274.32) (xy 210.82 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af98873-0d17-429d-b7c0-9b068f2d8680")
 	)
 	(wire
 		(pts
@@ -13255,7 +13376,7 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 86.36) (xy 638.81 86.36)
+			(xy 648.97 86.36) (xy 640.08 86.36)
 		)
 		(stroke
 			(width 0.254)
@@ -14205,7 +14326,7 @@
 	)
 	(wire
 		(pts
-			(xy 608.33 85.09) (xy 598.17 85.09)
+			(xy 608.33 85.09) (xy 599.44 85.09)
 		)
 		(stroke
 			(width 0.254)
@@ -15052,16 +15173,6 @@
 			(type default)
 		)
 		(uuid "78b15fe8-0da6-4bb1-b09e-d2b996f70b38")
-	)
-	(wire
-		(pts
-			(xy 120.65 309.88) (xy 123.19 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79873a87-dc06-4f54-8ca6-02bdade90291")
 	)
 	(wire
 		(pts
@@ -16285,6 +16396,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 312.42) (xy 123.19 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5295808-c1ea-40cf-b722-396805105e23")
+	)
+	(wire
+		(pts
 			(xy 293.37 459.74) (xy 300.99 459.74)
 		)
 		(stroke
@@ -17375,16 +17496,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 312.42) (xy 120.65 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb76d66c-d2bc-4dea-b79f-744810f7b815")
-	)
-	(wire
-		(pts
 			(xy 604.52 160.02) (xy 613.41 160.02)
 		)
 		(stroke
@@ -18092,6 +18203,16 @@
 			(type default)
 		)
 		(uuid "e530b72d-6109-4fd5-9d46-1b2ea25cbf3d")
+	)
+	(wire
+		(pts
+			(xy 208.28 271.78) (xy 210.82 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5494df0-fbc5-4f38-a2df-fdaefe6f36bb")
 	)
 	(wire
 		(pts
@@ -18973,16 +19094,6 @@
 		)
 		(uuid "08000e43-6b58-445f-a890-c895576b5ca4")
 	)
-	(label "DSP_PWM3_~{FAULT}"
-		(at 173.99 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08aab164-c771-4c58-a765-b6d19f5d8847")
-	)
 	(label "DSP-PWM6B"
 		(at 373.38 153.67 0)
 		(effects
@@ -19353,16 +19464,6 @@
 		)
 		(uuid "1712319c-e029-4d80-9097-7046800f3d75")
 	)
-	(label "DSP_Discharge3_EN"
-		(at 173.99 220.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "172ecc6c-9c2d-49c4-98ce-326044045da0")
-	)
 	(label "DI-1-DSP-3.3V"
 		(at 636.27 160.02 0)
 		(effects
@@ -19443,16 +19544,6 @@
 		)
 		(uuid "1b03a2bb-d51d-43ae-a2ee-94ae3c578270")
 	)
-	(label "DI-2-DSP-3.3V"
-		(at 173.99 287.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b36026f-8f5c-409a-82e5-73306ac9ac1d")
-	)
 	(label "DSP-PWM2A"
 		(at 133.35 190.5 180)
 		(effects
@@ -19502,16 +19593,6 @@
 			(justify right bottom)
 		)
 		(uuid "1e215278-0997-4302-87de-3e7fe6d5e982")
-	)
-	(label "DSP_PWM3~{_ENABLE}"
-		(at 173.99 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f17b03a-52e1-46c7-b3f2-94b7454af46e")
 	)
 	(label "DI-1-DSP-3.3V"
 		(at 133.35 279.4 180)
@@ -20133,16 +20214,6 @@
 		)
 		(uuid "401565a3-7606-46bb-932f-96aa171d54d3")
 	)
-	(label "HALL2_U"
-		(at 173.99 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42477abb-87e3-4cd9-aa15-d55d36e10ac9")
-	)
 	(label "MQEP2Z_H"
 		(at 567.69 481.33 0)
 		(effects
@@ -20333,6 +20404,16 @@
 		)
 		(uuid "4e6fa4fb-6e7d-4a68-96f9-55ee1a98c5b6")
 	)
+	(label "HALL1_V"
+		(at 173.99 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f38f57c-5cd0-4fec-9086-69982260d2c1")
+	)
 	(label "SPI_B_MI_HS"
 		(at 173.99 113.03 0)
 		(effects
@@ -20353,6 +20434,16 @@
 		)
 		(uuid "4fc816f5-22db-44e9-8e43-85332a4d2fe3")
 	)
+	(label "MQEP1B"
+		(at 173.99 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "505daf24-6bef-4955-ade4-8c9972f09559")
+	)
 	(label "ADC_CLK_X2"
 		(at 173.99 294.64 0)
 		(effects
@@ -20362,16 +20453,6 @@
 			(justify left bottom)
 		)
 		(uuid "50a6f1bc-3b66-4ca6-a766-1ae5612270e9")
-	)
-	(label "HALL1_U"
-		(at 133.35 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "51584eb0-dc09-4d7c-b500-56c87401382d")
 	)
 	(label "DSP_Temperature3"
 		(at 173.99 187.96 0)
@@ -20493,6 +20574,26 @@
 		)
 		(uuid "5846ab4e-46ec-4cf9-b975-723ea3f674e7")
 	)
+	(label "DSP_PWM3~{_ENABLE}"
+		(at 173.99 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5906d818-7954-419f-970a-7adfb0d1e139")
+	)
+	(label "DSP_Temperature1"
+		(at 173.99 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c49f02c-c69f-4fbf-a791-00715c41d319")
+	)
 	(label "GPIO116"
 		(at 163.83 309.88 0)
 		(effects
@@ -20602,6 +20703,16 @@
 			(justify right bottom)
 		)
 		(uuid "60fd771c-a3aa-45eb-8386-19a8ef029a1e")
+	)
+	(label "MQEP1Z"
+		(at 133.35 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61a25644-c56a-4f15-bd1f-9ff7a957dc77")
 	)
 	(label "ADC_B3_IN"
 		(at 162.56 44.45 0)
@@ -20923,16 +21034,6 @@
 		)
 		(uuid "770e0532-697f-4486-891b-345b2eba6ad9")
 	)
-	(label "MQEP1B"
-		(at 173.99 266.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "773641ac-7ab0-4ed0-a19d-f2f19627b831")
-	)
 	(label "GPIO130"
 		(at 135.89 307.34 0)
 		(effects
@@ -20962,6 +21063,16 @@
 			(justify left bottom)
 		)
 		(uuid "78f363ae-7135-4477-8d75-f34ea82a0677")
+	)
+	(label "HALL1_U"
+		(at 133.35 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "793208ea-598b-4750-bfea-cade5cb7a408")
 	)
 	(label "GPIO154"
 		(at 163.83 193.04 0)
@@ -21163,16 +21274,6 @@
 		)
 		(uuid "82819d5a-c2d5-44f6-85cc-235e39b3df79")
 	)
-	(label "DI-1-DSP-3.3V"
-		(at 173.99 274.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "830d3ae5-9060-4b65-89ad-fe71128312f7")
-	)
 	(label "GPIO24"
 		(at 135.89 113.03 0)
 		(effects
@@ -21323,6 +21424,16 @@
 		)
 		(uuid "89d85781-af51-473e-bee6-99f878085bdf")
 	)
+	(label "DSP_Temperature2"
+		(at 173.99 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c71df28-5341-43d4-ba44-4bfdc3cbb92f")
+	)
 	(label "DSP_VDC_BUS2"
 		(at 453.39 154.94 180)
 		(effects
@@ -21342,6 +21453,16 @@
 			(justify left bottom)
 		)
 		(uuid "8df3167d-1aa2-4ff7-8d6c-3911f5b6c822")
+	)
+	(label "DSP_Discharge2_EN"
+		(at 133.35 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e5cbed9-512d-428f-8b59-d9f0957e57ef")
 	)
 	(label "ADC_D0_IN"
 		(at 162.56 59.69 0)
@@ -21713,16 +21834,6 @@
 		)
 		(uuid "a42d76dd-0b35-4c55-99d0-109e3d048443")
 	)
-	(label "HALL2_V"
-		(at 173.99 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4e4e702-1fc3-4757-ae64-d643c1cdff03")
-	)
 	(label "MSDAB"
 		(at 588.01 276.86 0)
 		(effects
@@ -21973,6 +22084,16 @@
 		)
 		(uuid "b2710d4f-ae53-4ac8-a656-aff76606c2e5")
 	)
+	(label "HALL1_W"
+		(at 173.99 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b323ab68-c8ed-4f4b-934b-9b81ab1b97a0")
+	)
 	(label "HALL1_U"
 		(at 641.35 381 180)
 		(effects
@@ -21982,16 +22103,6 @@
 			(justify right bottom)
 		)
 		(uuid "b329052d-2c19-41e5-af83-0701888b9df5")
-	)
-	(label "HALL2_W"
-		(at 133.35 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b334d664-391d-4749-8b04-f73259f81ca2")
 	)
 	(label "HALL2_W_H"
 		(at 664.21 433.07 0)
@@ -22122,16 +22233,6 @@
 			(justify left bottom)
 		)
 		(uuid "bb588344-d5f8-41eb-8130-2f17b815c79e")
-	)
-	(label "DSP_Temperature1"
-		(at 133.35 203.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bb94bb4d-26b5-46e0-bafb-4c8ecff558ac")
 	)
 	(label "MQEP1ZY"
 		(at 617.22 393.7 180)
@@ -22342,16 +22443,6 @@
 			(justify right bottom)
 		)
 		(uuid "c6d07807-9351-418f-b9b0-f06a93e1ec07")
-	)
-	(label "MQEP1A"
-		(at 173.99 261.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6e7cd26-04bf-45df-8031-f9964a251b51")
 	)
 	(label "HALL2_VY"
 		(at 621.03 435.61 180)
@@ -22573,6 +22664,16 @@
 		)
 		(uuid "cde2b40c-4e00-4d96-9415-3a1fbf29e4fe")
 	)
+	(label "HALL2_U"
+		(at 173.99 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce105d18-4da9-43f0-a3dc-c260e71b61be")
+	)
 	(label "LED4"
 		(at 133.35 294.64 180)
 		(effects
@@ -22622,16 +22723,6 @@
 			(justify left bottom)
 		)
 		(uuid "cff67f3b-47ce-4af9-b27c-b7045bdcdbb8")
-	)
-	(label "HALL1_V"
-		(at 133.35 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d108e593-d682-4681-9107-eaedc83cbd73")
 	)
 	(label "GPIO61"
 		(at 163.83 208.28 0)
@@ -22693,6 +22784,16 @@
 		)
 		(uuid "d432786c-5ac0-4b4a-ace7-8688c2ff2902")
 	)
+	(label "MQEP1A"
+		(at 133.35 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d43b6614-1ff8-4472-9c62-3734f52bb45f")
+	)
 	(label "GPIO11"
 		(at 163.83 148.59 0)
 		(effects
@@ -22702,16 +22803,6 @@
 			(justify left bottom)
 		)
 		(uuid "d465e476-2802-4fb0-b0a0-8864067476c0")
-	)
-	(label "DSP_PWM1~{_ENABLE}"
-		(at 173.99 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4f73c2b-bf7b-43a6-807d-c7e57900b057")
 	)
 	(label "MQEP2A_L"
 		(at 567.69 467.36 0)
@@ -22744,7 +22835,7 @@
 		(uuid "d7fe66e1-cdd4-4b0f-9e07-60d5f190ac9e")
 	)
 	(label "LED3"
-		(at 598.17 85.09 0)
+		(at 599.44 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22752,6 +22843,16 @@
 			(justify left bottom)
 		)
 		(uuid "d8c0f47b-38e3-40a2-81b2-eac6a3004c27")
+	)
+	(label "HALL2_W"
+		(at 173.99 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8c347d0-b5ff-4f37-bae2-ad507c97deb0")
 	)
 	(label "DSP_Temperature4"
 		(at 173.99 158.75 0)
@@ -22803,16 +22904,6 @@
 		)
 		(uuid "db502da9-7e22-4df0-a655-d928e2d0063a")
 	)
-	(label "DSP_PWM2~{_ENABLE}"
-		(at 133.35 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "db8855da-b78a-47b1-a7ce-4e7ed268115a")
-	)
 	(label "GPIO16"
 		(at 135.89 153.67 0)
 		(effects
@@ -22833,16 +22924,6 @@
 		)
 		(uuid "dcf7edf5-d52e-4170-83fc-c136c5d433ae")
 	)
-	(label "DSP_Temperature2"
-		(at 133.35 215.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "df56d32b-e357-4022-8c04-d2ce72540c5c")
-	)
 	(label "ADC_A4_IN"
 		(at 67.31 45.72 180)
 		(effects
@@ -22862,6 +22943,16 @@
 			(justify left bottom)
 		)
 		(uuid "df902aff-208c-4720-94c7-7547574ac41f")
+	)
+	(label "DSP_PWM2~{_ENABLE}"
+		(at 133.35 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e01c2c7b-8c49-4015-ac9d-6bd16a3876fe")
 	)
 	(label "MQEP1A_H"
 		(at 562.61 372.11 0)
@@ -23063,16 +23154,6 @@
 		)
 		(uuid "e5d3d755-cbde-452f-a9e9-48faa53c8eba")
 	)
-	(label "DSP_PWM2_~{FAULT}"
-		(at 133.35 213.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e5db38eb-0527-4918-a57d-7246e848b75e")
-	)
 	(label "GPIO54"
 		(at 163.83 259.08 0)
 		(effects
@@ -23093,15 +23174,15 @@
 		)
 		(uuid "e6e12c01-6aa6-4b6d-8ad7-b8ebea080f8e")
 	)
-	(label "MQEP1Z"
-		(at 173.99 236.22 0)
+	(label "DSP_Discharge3_EN"
+		(at 173.99 297.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e74b7268-a8c7-43fa-ac50-86bae5f5578f")
+		(uuid "e74a0d0d-47a9-4b82-931b-aa00e209efb2")
 	)
 	(label "HALL1_W_L"
 		(at 661.67 335.28 0)
@@ -23122,16 +23203,6 @@
 			(justify left bottom)
 		)
 		(uuid "e8152c8c-d839-434b-b732-7a15f60e5906")
-	)
-	(label "HALL1_W"
-		(at 173.99 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e851616d-6d50-4076-acca-86e3c76da807")
 	)
 	(label "SPI_B_MI_HS"
 		(at 235.585 372.11 0)
@@ -23154,7 +23225,7 @@
 		(uuid "e95c5c83-46c7-4e8f-b98c-0210710ebc36")
 	)
 	(label "LED2"
-		(at 638.81 86.36 0)
+		(at 640.08 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23253,6 +23324,16 @@
 		)
 		(uuid "ef63afd3-3d7c-46c5-b7ad-620714dbba92")
 	)
+	(label "DSP_PWM1~{_ENABLE}"
+		(at 173.99 274.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efccb3d1-19ac-47ac-889e-c0b2bdddb95d")
+	)
 	(label "DSP-PWM5A"
 		(at 373.38 142.24 0)
 		(effects
@@ -23263,6 +23344,16 @@
 		)
 		(uuid "efd42961-0fa5-4788-9f13-e83d1f1068c3")
 	)
+	(label "HALL2_V"
+		(at 173.99 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0083bb4-b47d-4c54-96a1-77f4c28e1581")
+	)
 	(label "HALL2_V_H"
 		(at 567.69 433.07 0)
 		(effects
@@ -23272,6 +23363,16 @@
 			(justify left bottom)
 		)
 		(uuid "f0d3fab5-93e9-476d-a67c-4654170d2c6c")
+	)
+	(label "DSP_PWM3_~{FAULT}"
+		(at 133.35 309.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0e62b53-2a62-4d0c-a3f7-190c9e334225")
 	)
 	(label "ADC_D2_IN"
 		(at 162.56 69.85 0)
@@ -23553,6 +23654,16 @@
 		)
 		(uuid "fb5b56bd-de94-4794-9177-2b4fc82af620")
 	)
+	(label "DSP_PWM2_~{FAULT}"
+		(at 173.99 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fba4c5d2-e3fa-44a4-83ad-1ff827c6a727")
+	)
 	(label "GPIO51"
 		(at 163.83 266.7 0)
 		(effects
@@ -23603,16 +23714,6 @@
 		)
 		(uuid "fdbe43df-3aba-43d0-9213-8d1b25bf9eb9")
 	)
-	(label "DSP_Discharge2_EN"
-		(at 173.99 228.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fef6d8ca-dc64-4f7b-bcfb-6f48a9b251d8")
-	)
 	(label "DSP-PWM3A"
 		(at 133.35 200.66 180)
 		(effects
@@ -23656,6 +23757,57 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 560.07 92.71) (xy 556.26 88.9) (xy 556.26 58.42) (xy 571.5 43.18) (xy 586.74 43.18) (xy 594.36 57.15)
+				(xy 594.36 74.93) (xy 595.63 77.47) (xy 595.63 102.87) (xy 590.55 107.95) (xy 571.5 107.95) (xy 566.42 102.87)
+				(xy 566.42 97.79) (xy 561.34 92.71)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 21227512-8ae7-472d-ad52-1ff97675e3d0)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 601.98 92.71) (xy 598.17 88.9) (xy 598.17 58.42) (xy 613.41 43.18) (xy 628.65 43.18) (xy 636.27 57.15)
+				(xy 636.27 74.93) (xy 637.54 77.47) (xy 637.54 102.87) (xy 632.46 107.95) (xy 613.41 107.95) (xy 608.33 102.87)
+				(xy 608.33 97.79) (xy 603.25 92.71)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 2e597a9c-4cda-45f6-aba8-902cdf11d6b3)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 687.07 95.25) (xy 683.26 91.44) (xy 683.26 60.96) (xy 698.5 45.72) (xy 713.74 45.72) (xy 721.36 59.69)
+				(xy 721.36 77.47) (xy 722.63 80.01) (xy 722.63 105.41) (xy 717.55 110.49) (xy 698.5 110.49) (xy 693.42 105.41)
+				(xy 693.42 100.33) (xy 688.34 95.25)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8e765baf-e60d-4c95-9305-8358377c1895)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 242.57 224.79) (xy 530.86 224.79) (xy 530.86 276.86) (xy 522.605 281.94) (xy 249.555 281.94)
 				(xy 238.76 275.59) (xy 238.76 228.6)
 			)
@@ -23672,6 +23824,23 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 642.62 93.98) (xy 638.81 90.17) (xy 638.81 59.69) (xy 654.05 44.45) (xy 669.29 44.45) (xy 676.91 58.42)
+				(xy 676.91 76.2) (xy 678.18 78.74) (xy 678.18 104.14) (xy 673.1 109.22) (xy 654.05 109.22) (xy 648.97 104.14)
+				(xy 648.97 99.06) (xy 643.89 93.98)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid d57153b7-d3ea-402e-8320-30cbd1b35dd7)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 241.3 287.02) (xy 529.59 287.02) (xy 529.59 339.09) (xy 521.335 344.17) (xy 248.285 344.17)
 				(xy 237.49 337.82) (xy 237.49 290.83)
 			)
@@ -23683,6 +23852,68 @@
 				(type none)
 			)
 			(uuid f64ea8c0-8289-4dbd-a718-d23dcae4fdd2)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 618.49 505.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "148cfc2f-9c19-4e98-b046-d82130652cb6")
+		(property "Netclass" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "halleqep2"
+			(at 619.1885 502.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 699.77 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27ad5c03-9d98-4ded-924d-2fc38339b40b")
+		(property "Netclass" ""
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "LED4"
+			(at 700.4685 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
 		)
 	)
 	(netclass_flag ""
@@ -23719,6 +23950,68 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 659.13 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f6a5a1c-1751-410f-b134-48b453513fe3")
+		(property "Netclass" ""
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "LED3"
+			(at 659.8285 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 614.68 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fc27818-ef81-4ce9-8f7e-5936da907bd1")
+		(property "Netclass" ""
+			(at -3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "LED2"
+			(at 615.3785 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 340.36 281.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23738,6 +24031,68 @@
 		)
 		(property "Component Class" "CAN_B"
 			(at 341.0585 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 619.76 405.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4b05bb0-b7ca-4bb1-8697-1fa214cbdf9a")
+		(property "Netclass" ""
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "halleqep1"
+			(at 620.4585 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 575.31 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5e7c681-0d27-4bcd-940b-41dc47c90802")
+		(property "Netclass" ""
+			(at 29.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "LED1"
+			(at 576.0085 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24899,7 +25254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x10_P1.27mm_Vertical_SMD"
 			(at 502.92 118.11 0)
 			(effects
 				(font
@@ -27326,6 +27681,245 @@
 		)
 	)
 	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 110.49 309.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "248fe5aa-daf9-4ee9-a2b2-dbeb25cad96f")
+		(property "Reference" "R187"
+			(at 116.078 311.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "DNP"
+			(at 110.236 314.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 110.49 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 110.49 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05091e1e-ca0b-4885-b4ed-07fdbd31ecc7")
+		)
+		(pin "2"
+			(uuid "17d26583-29f2-4a95-a621-ec474baebe9d")
+		)
+		(instances
+			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
+					(reference "R187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sheet1-altium-import:CAP_4")
 		(at 429.26 256.54 0)
 		(unit 1)
@@ -27883,79 +28477,6 @@
 			(project "28388motherboard"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
 					(reference "#PWR0131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 203.2 271.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "268eee0d-a24f-4706-a69e-3fe059bcea08")
-		(property "Reference" "J8"
-			(at 204.47 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x02_Top_Bottom"
-			(at 204.47 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD"
-			(at 203.2 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 203.2 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "fd46b35b-9c61-4ac7-9615-3b6b8b05d190")
-		)
-		(pin "2"
-			(uuid "f7584135-5eaf-4129-a602-2253548c4471")
-		)
-		(pin "1"
-			(uuid "8631bf74-080b-40f2-85ef-e0b17268069d")
-		)
-		(pin "4"
-			(uuid "46ac1196-aada-458c-8a60-2f8292942098")
-		)
-		(instances
-			(project "28388motherboard"
-				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -30294,6 +30815,245 @@
 			(project "28388motherboard"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 110.49 307.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3895eea7-1f72-45ef-8f8b-1fce52af783f")
+		(property "Reference" "R186"
+			(at 113.284 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "0R"
+			(at 109.728 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 110.49 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 110.49 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "830ff4a2-4ab0-464e-b53e-d2d55454e7f0")
+		)
+		(pin "2"
+			(uuid "2371123c-8588-497e-bddd-fbaf9561fbec")
+		)
+		(instances
+			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
+					(reference "R186")
 					(unit 1)
 				)
 			)
@@ -33092,6 +33852,245 @@
 		)
 	)
 	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 200.66 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d5dfd89-6693-48e3-bfa7-84b5ef39e624")
+		(property "Reference" "R185"
+			(at 206.248 273.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "DNP"
+			(at 200.406 276.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 200.66 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 200.66 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "143a331c-c595-4460-92ca-eee1c30ba957")
+		)
+		(pin "2"
+			(uuid "cff24e75-0a40-4fa1-af49-29548de3d1ac")
+		)
+		(instances
+			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
+					(reference "R185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 579.12 280.67 0)
 		(unit 1)
@@ -33246,7 +34245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical_SMD"
 			(at 72.39 43.18 0)
 			(effects
 				(font
@@ -36346,80 +37345,6 @@
 			(project "28388motherboard"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 115.57 312.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6edcdaa1-ed37-40f3-8520-ce49e9dbc271")
-		(property "Reference" "J7"
-			(at 114.3 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x02_Top_Bottom"
-			(at 114.3 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD"
-			(at 115.57 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "91be15ce-6f67-4952-9d7d-2394303912fa")
-		)
-		(pin "2"
-			(uuid "9c7441f7-1874-433a-8e28-26657d84af7b")
-		)
-		(pin "1"
-			(uuid "e06c7563-98c8-4fe0-a322-a9caa6632f25")
-		)
-		(pin "4"
-			(uuid "099825ec-8b79-4fc3-b309-f7b07d1d9c0c")
-		)
-		(instances
-			(project "28388motherboard"
-				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -45798,7 +46723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x10_P1.27mm_Vertical_SMD"
 			(at 502.92 158.75 0)
 			(effects
 				(font
@@ -45919,7 +46844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical_SMD"
 			(at 72.39 30.48 0)
 			(effects
 				(font
@@ -51658,6 +52583,245 @@
 			(project "28388motherboard"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
 					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:RES_2")
+		(at 200.66 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff3c4f11-c1d0-46e8-b368-ff3c35502344")
+		(property "Reference" "R184"
+			(at 203.454 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "0R"
+			(at 199.898 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Lib_sheet_10:R_0603_1608Metric"
+			(at 200.66 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Automotive" "AEC-Q200"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "EBOM Description" "电阻-3.3K-±5%-1/10W-(-55~155℃)-车规-0603"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID" "397"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Implementation Type" "<none>"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "New Part Number" "3.2.03.01.00406"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "0603R"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB Footprint" "0603R"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part State" "已认定"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "普通电阻"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Power Pins Visible" "False"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Primitive" "DEFAULT"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Source Package" "RES"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "priority" "H"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "purpose" "通用"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "制造商名称" "MC000003_国巨（YAGEO）"
+			(at 200.66 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87bf9ed6-07a0-49e5-b384-403078a2ff9e")
+		)
+		(pin "2"
+			(uuid "fefad708-1d42-4eba-be4e-d50cf2cb054b")
+		)
+		(instances
+			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
+					(reference "R184")
 					(unit 1)
 				)
 			)
