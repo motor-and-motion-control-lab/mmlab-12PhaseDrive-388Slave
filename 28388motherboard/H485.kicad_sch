@@ -5013,16 +5013,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 99.06) (xy 81.28 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86021e34-135a-4289-a9ed-b18c573bc735")
-	)
-	(wire
-		(pts
 			(xy 115.57 48.26) (xy 100.33 48.26)
 		)
 		(stroke
@@ -5340,6 +5330,16 @@
 			(type default)
 		)
 		(uuid "e5daf7f2-d1f5-4e65-91f8-4c465d27fbf1")
+	)
+	(wire
+		(pts
+			(xy 81.28 99.06) (xy 82.55 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7bbb1cb-f1b5-4472-b793-2964f8bd5793")
 	)
 	(wire
 		(pts
@@ -8913,7 +8913,8 @@
 	)
 	(symbol
 		(lib_id "sheet1-altium-import:RES_7")
-		(at 74.93 101.6 180)
+		(at 69.85 101.6 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8921,7 +8922,7 @@
 		(dnp no)
 		(uuid "86df3b8a-e73a-4af1-aae8-a651f959793c")
 		(property "Reference" "R36"
-			(at 69.85 101.854 0)
+			(at 74.93 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,7 +8931,7 @@
 			)
 		)
 		(property "Value" "0R/1%"
-			(at 69.088 96.266 0)
+			(at 75.692 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8939,7 +8940,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.93 101.6 0)
+			(at 69.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +8949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 101.6 0)
+			(at 69.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8957,7 +8958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 101.6 0)
+			(at 69.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8966,7 +8967,7 @@
 			)
 		)
 		(property "Automotive" "AEC-Q200"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,7 +8977,7 @@
 			)
 		)
 		(property "Datasheet Link" "\\\\10.192.7.10\\Dianqu-CIS\\DATASHEET-New\\电阻\\YAGEO_AC_规格书.pdf"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8986,7 +8987,7 @@
 			)
 		)
 		(property "EBOM Description" "电阻-0R-±1%-1/10W-(-55~155℃)-车规-0603"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8996,7 +8997,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9006,7 +9007,7 @@
 			)
 		)
 		(property "ID" "245"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,7 +9017,7 @@
 			)
 		)
 		(property "Implementation Type" "<none>"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,7 +9027,7 @@
 			)
 		)
 		(property "New Part Number" "3.2.03.01.00250"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,7 +9037,7 @@
 			)
 		)
 		(property "Origin Footprint" "0603R"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9046,7 +9047,7 @@
 			)
 		)
 		(property "PCB Footprint" "0603R"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9056,7 +9057,7 @@
 			)
 		)
 		(property "Part State" "已认定"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,7 +9067,7 @@
 			)
 		)
 		(property "Part Type" "普通电阻"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,7 +9077,7 @@
 			)
 		)
 		(property "Power Pins Visible" "False"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9086,7 +9087,7 @@
 			)
 		)
 		(property "Primitive" "DEFAULT"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +9097,7 @@
 			)
 		)
 		(property "Source Package" "RES"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,7 +9107,7 @@
 			)
 		)
 		(property "priority" "H"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,7 +9117,7 @@
 			)
 		)
 		(property "purpose" "通用"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9126,7 +9127,7 @@
 			)
 		)
 		(property "制造商名称" "MC000003_国巨（YAGEO）"
-			(at 74.93 101.6 90)
+			(at 69.85 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)

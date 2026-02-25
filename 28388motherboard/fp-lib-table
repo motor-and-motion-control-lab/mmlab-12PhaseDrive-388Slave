@@ -8,4 +8,5 @@
   (lib (name "Lib2ic")(type "KiCad")(uri "${KIPRJMOD}/Lib2ic.pretty")(options "")(descr ""))
   (lib (name "Lib3")(type "KiCad")(uri "${KIPRJMOD}/Lib3.pretty")(options "")(descr ""))
   (lib (name "Lib4")(type "KiCad")(uri "${KIPRJMOD}/Lib4.pretty")(options "")(descr ""))
+  (lib (name "elibz")(type "KiCad")(uri "D:/codefile/28388Board/elibz.pretty")(options "")(descr ""))
 )

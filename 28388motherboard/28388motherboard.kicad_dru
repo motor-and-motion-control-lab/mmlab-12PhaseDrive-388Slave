@@ -13,7 +13,7 @@
 
 # 走线与焊盘之间的间距
 (rule "Pad to Track Clearance"
-    (constraint clearance (min 0.25mm) (opt 0.35mm) (max 0.56mm))
+    (constraint clearance (min 0.2mm) (opt 0.3mm) (max 0.56mm))
     (condition "A.Type == 'Pad' && B.Type == 'Track'")
 )
 
@@ -29,7 +29,7 @@
 # 走线与via之间的间距
 
 (rule "Track to Via Clearance"
-    (constraint clearance (min 0.35mm) (opt 0.56mm) (max 0.56mm))
+    (constraint clearance (min 0.30mm) (opt 0.56mm) (max 0.56mm))
     (condition "A.Type == 'Via' && B.Type == 'Track'")
 )
 
@@ -39,14 +39,14 @@
 
 # 表层AGND到其他网络间距
 (rule clearance
-(condition "A.NetName=='AGND'")
+(condition "A.NetName=='GND'")
 (condition "A.Type=='Zone'")
 (layer outer)
 (constraint clearance (min 0.35mm) (opt 0.5mm))
 )
 
 (rule clearance
-(condition "A.NetName=='AGND'")
+(condition "A.NetName=='GND'")
 (condition "A.Type=='Zone'")
 (layer inner)
 (constraint clearance (min 0.35mm) (opt 0.5mm))
@@ -77,50 +77,7 @@
 
 
 
-# 阻止铜皮进入小器件内部
-# Prevent copper pours under small part
-(rule "No copper pours under C?"
-    (layer outer)
-    (constraint physical_clearance (min 0.05mm))
-    (condition "A.Type == 'Zone' && B.Reference == 'C*'")
-)
 
-
-# 阻止铜皮进入小器件内部
-# Prevent copper pours under small part
-(rule "No copper pours under R?"
-	(layer outer)
-    (constraint physical_clearance (min 0.05mm))
-    (condition "A.Type == 'Zone' && B.Reference == 'R*'")
-)
-
-
-# 阻止铜皮进入小器件内部
-# Prevent copper pours under small part
-(rule "No copper pours under D?"
-    (layer outer)
-    (constraint physical_clearance (min 0.05mm))
-    (condition "A.Type == 'Zone' && B.Reference == 'D*'")
-)
-
-
-
-# 阻止铜皮进入小器件内部
-# Prevent copper pours under small part
-(rule "No copper pours under U?"
-    (layer outer)
-    (constraint physical_clearance (min 0.05mm))
-    (condition "A.Type == 'Zone' && B.Reference == 'U*'")
-)
-
-
-# 阻止铜皮进入小器件内部
-# Prevent copper pours under small part
-(rule "No copper pours under Q?"
-    (layer outer)
-    (constraint physical_clearance (min 0.05mm))
-    (condition "A.Type == 'Zone' && B.Reference == 'Q*'")
-)
 
 
 
@@ -128,7 +85,7 @@
 # 其他网络到PE间距
 (rule clearance
 (condition "A.NetName=='PE_GND'")
-(constraint clearance (min 2mm) (opt 2.5mm))
+(constraint clearance (min 0.7mm) (opt 1.5mm))
 )
 
 
