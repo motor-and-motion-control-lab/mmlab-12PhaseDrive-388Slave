@@ -4364,12 +4364,6 @@
 		)
 	)
 	(junction
-		(at 233.68 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10b6f259-7655-4b90-aff6-302c27c5e199")
-	)
-	(junction
 		(at 176.53 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4533,16 +4527,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 96.52) (xy 233.68 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f6cdc91-d06d-48d5-b7e7-d14a383c30f4")
-	)
-	(wire
-		(pts
 			(xy 153.67 93.98) (xy 153.67 81.28)
 		)
 		(stroke
@@ -4620,6 +4604,16 @@
 			(type default)
 		)
 		(uuid "2142d09d-0fa1-46fc-bf98-7a6fdc3be679")
+	)
+	(wire
+		(pts
+			(xy 236.22 96.52) (xy 236.22 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2414c02b-10d2-4c29-8d74-167e0eb8f1be")
 	)
 	(wire
 		(pts
@@ -4763,6 +4757,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 96.52) (xy 236.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bd7acd-b46c-4aa3-b805-d03de99d245c")
+	)
+	(wire
+		(pts
 			(xy 78.74 53.34) (xy 78.74 60.96)
 		)
 		(stroke
@@ -4780,16 +4784,6 @@
 			(type default)
 		)
 		(uuid "52e1d5c8-f192-4baa-9bca-b6be5b4ae167")
-	)
-	(wire
-		(pts
-			(xy 233.68 96.52) (xy 240.03 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57605588-2799-4c1c-a736-90a70b8cf233")
 	)
 	(wire
 		(pts
@@ -4863,7 +4857,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 91.44) (xy 233.68 96.52)
+			(xy 233.68 91.44) (xy 233.68 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9845,6 +9839,83 @@
 				)
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/9f621359-c4a5-482e-a52e-bea19b45c818"
 					(reference "#PWR0288")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sheet1-altium-import:D+5V")
+		(at 236.22 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a17351fb-2614-4535-9f8b-af5b2a4ffaf6")
+		(property "Reference" "#PWR0308"
+			(at 236.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "D+5V"
+			(at 236.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 'D+5V' 的全局标签"
+			(at 236.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b4294b02-40ff-4614-bbd5-e3746ec01ebd")
+		)
+		(instances
+			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/30f612b7-5bdc-4c5b-9482-81b519ad00d6"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/3ba8ca03-ed76-4c85-b19e-d2c90cb31384"
+					(reference "#PWR0310")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/6c6142d1-0088-45dc-b843-44c9557b945c"
+					(reference "#PWR0312")
+					(unit 1)
+				)
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff/9f621359-c4a5-482e-a52e-bea19b45c818"
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)

@@ -2,7 +2,6 @@
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
-	(locked yes)
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 2.906434 -0.74776 0)
@@ -185,122 +184,6 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "F.SilkS")
-		(uuid "d4e72a2b-b032-43fc-a1c9-a678fb486819")
-		(hatch edge 0.5)
-		(priority 100)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0)
-		(filled_areas_thickness no)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 0.85 -0.32) (xy 1.1548 -0.32) (xy 1.1548 -0.7774) (xy 0.85 -0.7774)
-			)
-		)
-		(filled_polygon
-			(layer "F.SilkS")
-			(island)
-			(pts
-				(xy 0.85 -0.32) (xy 1.1548 -0.32) (xy 1.1548 -0.7774) (xy 0.85 -0.7774)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.SilkS")
-		(uuid "de7758b0-6cc2-4405-b3c0-2713e60c8557")
-		(hatch edge 0.5)
-		(priority 100)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0)
-		(filled_areas_thickness no)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 0.85 0.32) (xy 1.1548 0.32) (xy 1.1548 0.7774) (xy 0.85 0.7774)
-			)
-		)
-		(filled_polygon
-			(layer "F.SilkS")
-			(island)
-			(pts
-				(xy 0.85 0.32) (xy 1.1548 0.32) (xy 1.1548 0.7774) (xy 0.85 0.7774)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "Dwgs.User")
-		(uuid "1db6db85-a84a-477c-a9d9-0f19663fe5d1")
-		(hatch edge 0.5)
-		(priority 100)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -1.114 0.083) (xy -1.114 -0.067) (xy -0.514 -0.067) (xy -0.514 0.083)
-			)
-		)
-		(filled_polygon
-			(layer "Dwgs.User")
-			(island)
-			(pts
-				(xy -1.114 0.083) (xy -1.114 -0.067) (xy -0.514 -0.067) (xy -0.514 0.083)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "Dwgs.User")
-		(uuid "c215d80d-77d1-4dc2-989e-46e53fa2d1e6")
-		(hatch edge 0.5)
-		(priority 100)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -0.889 0.508) (xy -0.889 -0.492) (xy -0.739 -0.492) (xy -0.739 0.508)
-			)
-		)
-		(filled_polygon
-			(layer "Dwgs.User")
-			(island)
-			(pts
-				(xy -0.889 0.508) (xy -0.889 -0.492) (xy -0.739 -0.492) (xy -0.739 0.508)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
 		(layer "Dwgs.User")
 		(uuid "3c2c6f85-d8c3-4550-87ba-819c4d554013")
 		(hatch edge 0.5)
@@ -324,35 +207,6 @@
 			(island)
 			(pts
 				(xy 1.316 0.075) (xy 1.316 -0.075) (xy 0.716 -0.075) (xy 0.716 0.075)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "User.3")
-		(uuid "08cad34a-add4-4ae9-9612-880cc56d5991")
-		(hatch edge 0.5)
-		(priority 100)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -0.85 0.625) (xy 0.85 0.625) (xy 0.85 -0.625) (xy -0.85 -0.625)
-			)
-		)
-		(filled_polygon
-			(layer "User.3")
-			(island)
-			(pts
-				(xy -0.85 0.625) (xy 0.85 0.625) (xy 0.85 -0.625) (xy -0.85 -0.625)
 			)
 		)
 	)

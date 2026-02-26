@@ -154,17 +154,6 @@
 		(layer "F.SilkS")
 		(uuid "a7957e1e-0a77-4f01-be3a-8c747b2faa10")
 	)
-	(fp_circle
-		(center -2.605 1.3)
-		(end -2.575 1.3)
-		(stroke
-			(width 0.06)
-			(type default)
-		)
-		(fill no)
-		(layer "User.5")
-		(uuid "10c85fb3-b4af-4528-99c7-a770d6637f2f")
-	)
 	(pad "1" smd rect
 		(at -2.1999 0 180)
 		(size 2 2)
@@ -180,64 +169,6 @@
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "029af1fb-be05-4cf5-80c9-41e879a7a97b")
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.SilkS")
-		(uuid "15f9d9c4-f8e0-4ab0-bd37-5de32892eb74")
-		(hatch edge 0.5)
-		(priority 100)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0)
-		(filled_areas_thickness no)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -2.4925 -1.5036) (xy -2.4938 -1.097) (xy -2.9534 -1.1015) (xy -2.9497 -1.5036)
-			)
-		)
-		(filled_polygon
-			(layer "F.SilkS")
-			(island)
-			(pts
-				(xy -2.4925 -1.5036) (xy -2.4938 -1.097) (xy -2.9534 -1.1015) (xy -2.9497 -1.5036)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.SilkS")
-		(uuid "022ffd16-10bf-45b6-b04d-e48999c77f96")
-		(hatch edge 0.5)
-		(priority 100)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0)
-		(filled_areas_thickness no)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -2.4843 1.0948) (xy -2.4856 1.5014) (xy -2.9451 1.4968) (xy -2.9415 1.0948)
-			)
-		)
-		(filled_polygon
-			(layer "F.SilkS")
-			(island)
-			(pts
-				(xy -2.4843 1.0948) (xy -2.4856 1.5014) (xy -2.9451 1.4968) (xy -2.9415 1.0948)
-			)
-		)
 	)
 	(zone
 		(net 0)
@@ -323,35 +254,6 @@
 			(island)
 			(pts
 				(xy 2.3175 0.0888) (xy 2.3175 -0.1137) (xy 1.5075 -0.1137) (xy 1.5075 0.0888)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "User.3")
-		(uuid "21555386-b1a1-4573-a63b-38688da38b6f")
-		(hatch edge 0.5)
-		(priority 100)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -2.1325 1.2988) (xy -2.1325 -1.3012) (xy 2.1875 -1.3012) (xy 2.1875 1.2988)
-			)
-		)
-		(filled_polygon
-			(layer "User.3")
-			(island)
-			(pts
-				(xy -2.1325 1.2988) (xy -2.1325 -1.3012) (xy 2.1875 -1.3012) (xy 2.1875 1.2988)
 			)
 		)
 	)
