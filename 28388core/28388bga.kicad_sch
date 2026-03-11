@@ -41087,7 +41087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR252012S"
+		(property "Footprint" "Inductor_SMD:78438323032"
 			(at 748.03 55.88 0)
 			(effects
 				(font
@@ -51605,7 +51605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR252012S"
+		(property "Footprint" "Inductor_SMD:PFL3215"
 			(at 748.03 66.04 0)
 			(effects
 				(font
