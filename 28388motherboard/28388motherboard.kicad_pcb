@@ -213071,7 +213071,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "B GND A GND NC PE"
+	(gr_text "B GND A 5V NC PE"
 		(at 233.875 127.925 270)
 		(layer "F.SilkS")
 		(uuid "1a7fdd35-d311-496c-be31-cf53aec3b48c")
@@ -213083,8 +213083,20 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "B GND A GND NC PE"
-		(at 233.825 82.175 270)
+	(gr_text "GND VDD"
+		(at 225.19 156.6 0)
+		(layer "F.SilkS")
+		(uuid "27308671-a00e-4614-a0ab-d18ad722af2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B GND A 5V NC PE"
+		(at 233.825 83.03 270)
 		(layer "F.SilkS")
 		(uuid "27f0294b-6fd3-4961-bf93-e6b4fc049db1")
 		(effects
@@ -213254,7 +213266,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "B GND A GND NC PE"
+	(gr_text "B GND A  5V NC PE"
 		(at 233.875 105.025 270)
 		(layer "F.SilkS")
 		(uuid "68c6a7d8-3af5-4b9d-ae00-b02365cb5c53")
@@ -213329,7 +213341,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "B \nG\nA \nG\nNC \nPE"
+	(gr_text "B \nG\nA \n5\nNC \nPE"
 		(at 111.7 109.75 180)
 		(layer "F.SilkS")
 		(uuid "bc202b92-b3da-4c70-a1c9-df47717ee35c")
@@ -213489,6 +213501,18 @@
 			(font
 				(size 0.6 0.6)
 				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND VDD"
+		(at 224.89 148.03 0)
+		(layer "F.SilkS")
+		(uuid "ebee64d7-9a6b-4edb-b7be-6a02a9f3447a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1524)
 			)
 			(justify left bottom)
 		)
