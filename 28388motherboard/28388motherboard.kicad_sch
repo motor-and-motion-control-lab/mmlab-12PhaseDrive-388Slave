@@ -11583,6 +11583,46 @@
 		)
 		(uuid fab7192b-f7dd-48f3-b15d-c40087acc84f)
 	)
+	(text "ADC 14"
+		(exclude_from_sim no)
+		(at 86.106 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "05a05149-2f82-4073-a51f-1eb4450bf574")
+	)
+	(text "ADC B0"
+		(exclude_from_sim no)
+		(at 86.106 98.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06fa285b-ab19-4c35-b10b-0e5f1d60f298")
+	)
+	(text "ADC B1"
+		(exclude_from_sim no)
+		(at 38.354 96.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0885fabc-efec-484c-81d4-9045ec9c0f55")
+	)
+	(text "ADC C5"
+		(exclude_from_sim no)
+		(at 38.354 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22168ca0-f7e0-4a5f-a182-8c27751ab72e")
+	)
 	(text "B\n"
 		(exclude_from_sim no)
 		(at 668.528 146.05 0)
@@ -11618,6 +11658,26 @@
 		)
 		(uuid "3618d70c-c7a4-4d5d-8e09-071153cbde5e")
 	)
+	(text "ADC B4"
+		(exclude_from_sim no)
+		(at 86.106 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ddddfaf-c782-4256-927e-cc2e47fd5cee")
+	)
+	(text "ADC D0"
+		(exclude_from_sim no)
+		(at 38.354 98.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4066e615-b8ad-48b9-9e41-d2ffa03e9b98")
+	)
 	(text "C\n"
 		(exclude_from_sim no)
 		(at 721.36 125.73 0)
@@ -11629,6 +11689,26 @@
 			)
 		)
 		(uuid "442936d1-4b67-4208-a7b2-d2ce1eaf66e4")
+	)
+	(text "ADC A5\n"
+		(exclude_from_sim no)
+		(at 38.354 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45c26aef-9fd4-4c44-b60d-d0322e12b1ff")
+	)
+	(text "ADC D3"
+		(exclude_from_sim no)
+		(at 86.106 88.392 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46a4b5d1-fcfa-4972-9c0d-0b62097dd1fb")
 	)
 	(text "数字输入"
 		(exclude_from_sim no)
@@ -11678,6 +11758,36 @@
 		)
 		(uuid "65e1ea77-fd07-41df-b622-a494a6882575")
 	)
+	(text "ADC 15"
+		(exclude_from_sim no)
+		(at 38.354 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67fc7501-4da6-4eaf-9cd8-65fbc424503a")
+	)
+	(text "ADC A1"
+		(exclude_from_sim no)
+		(at 38.354 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c6b6649-2971-46fe-b5c7-f8375cd8318b")
+	)
+	(text "ADC A3"
+		(exclude_from_sim no)
+		(at 86.106 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "727f7ab2-8442-41c0-8474-203194da98cf")
+	)
 	(text "HALL+EQEP=增量式编码器"
 		(exclude_from_sim no)
 		(at 557.276 317.754 0)
@@ -11689,6 +11799,26 @@
 			(justify left bottom)
 		)
 		(uuid "7515afa5-49c4-4a0e-a454-f9feeb66f4d4")
+	)
+	(text "ADC D1"
+		(exclude_from_sim no)
+		(at 38.354 88.392 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a350369-0495-40a0-ae02-92207812f6ed")
+	)
+	(text "ADC A4"
+		(exclude_from_sim no)
+		(at 86.106 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "812df060-a27a-41b5-a7c2-e3e8d5db4297")
 	)
 	(text "SPI\n"
 		(exclude_from_sim no)
@@ -11714,6 +11844,36 @@
 		)
 		(uuid "91047aab-22c0-4102-8b84-2457e6cf3b48")
 	)
+	(text "ADC C2"
+		(exclude_from_sim no)
+		(at 86.106 111.252 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96fbecc6-d8b0-4826-82cf-e604a821665f")
+	)
+	(text "ADC C4"
+		(exclude_from_sim no)
+		(at 38.354 111.252 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2e540ce-14c4-4763-8552-d4b8eaf59f75")
+	)
+	(text "ADC B3"
+		(exclude_from_sim no)
+		(at 38.354 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6696848-ec31-4b0e-a0fd-238a6c69ef34")
+	)
 	(text "电源提示灯"
 		(exclude_from_sim no)
 		(at 567.69 34.798 0)
@@ -11726,6 +11886,26 @@
 			(justify left bottom)
 		)
 		(uuid "a6edadb6-dfad-417d-829c-fffe87fdb806")
+	)
+	(text "ADC B2"
+		(exclude_from_sim no)
+		(at 86.106 96.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aa2e4055-b56d-4999-8315-c42ca3571994")
+	)
+	(text "ADC D4\n"
+		(exclude_from_sim no)
+		(at 86.106 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af26747a-bdbc-4b55-bfd8-f473ee91b2eb")
 	)
 	(text "I2C接位移传感器"
 		(exclude_from_sim no)
@@ -11751,6 +11931,26 @@
 		)
 		(uuid "b74139e9-5737-4138-98de-f2ef6ba71f1f")
 	)
+	(text "ADC B5"
+		(exclude_from_sim no)
+		(at 38.354 90.932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7c2c130-6a8b-4e66-b00c-1fb5c3f7baeb")
+	)
+	(text "ADC C3"
+		(exclude_from_sim no)
+		(at 86.106 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c1592c23-6e6b-4948-9383-799a0b404e95")
+	)
 	(text "信号灯"
 		(exclude_from_sim no)
 		(at 689.61 39.37 0)
@@ -11773,6 +11973,36 @@
 			)
 		)
 		(uuid "cdfce4d7-6ada-471a-bd61-db83b92781d5")
+	)
+	(text "ADC D5"
+		(exclude_from_sim no)
+		(at 38.354 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4faa485-fcb6-4738-be8c-786a719d3824")
+	)
+	(text "ADC A0\n"
+		(exclude_from_sim no)
+		(at 38.354 103.632 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d56ae637-4d02-44ad-8783-5bfb80495941")
+	)
+	(text "ADC D2"
+		(exclude_from_sim no)
+		(at 86.106 90.932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7d02de9-12e9-419f-872a-b506337a0011")
 	)
 	(text "Closed to connector"
 		(exclude_from_sim no)
@@ -11807,6 +12037,16 @@
 			(justify left top)
 		)
 		(uuid "e252d6f4-7967-47a1-a0af-a0bcae50b97d")
+	)
+	(text "ADC A2"
+		(exclude_from_sim no)
+		(at 86.106 103.632 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0c028d2-78df-49af-a37d-4d8be380868c")
 	)
 	(text "ENPWM默认封波"
 		(exclude_from_sim no)
@@ -30191,6 +30431,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 610.87 406.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2517f6e3-7fa8-48f9-94ed-cfe4a81bda8d")
+		(property "Reference" "TP_G3"
+			(at 630.936 406.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 621.03 406.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 610.87 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 610.87 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 610.87 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1671ae91-41f2-477d-a9eb-0d7a29de2ea4")
+		)
+		(instances
+			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
+					(reference "TP_G3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sheet1-altium-import:CAP_4")
 		(at 429.26 256.54 0)
 		(unit 1)
@@ -33213,7 +33517,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "365280d3-f668-4e30-878e-5cf511564bcf")
-		(property "Reference" "TP_RX3"
+		(property "Reference" "TP_RX2"
 			(at 667.004 207.01 90)
 			(effects
 				(font
@@ -33262,7 +33566,7 @@
 		(instances
 			(project "28388motherboard"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
-					(reference "TP_RX3")
+					(reference "TP_RX2")
 					(unit 1)
 				)
 			)
@@ -36695,6 +36999,70 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 762 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "457e575d-1dc5-45f4-8c88-5bc559d8cb67")
+		(property "Reference" "TP_G2"
+			(at 782.066 182.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 772.16 182.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 762 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 762 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 762 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "790c49bb-3d56-47b3-a59d-6801be91366e")
+		)
+		(instances
+			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
+					(reference "TP_G2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 730.25 204.47 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37198,6 +37566,71 @@
 			(project "28388motherboard"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 762 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "484334aa-b120-4af7-832f-7f583f543be9")
+		(property "Reference" "#PWR030"
+			(at 762 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 762 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 762 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 762 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 762 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "413dee03-e1e1-4e8a-aa48-76241cdcb612")
+		)
+		(instances
+			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -45431,6 +45864,71 @@
 			(project "28388motherboard"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a0f77ba-5654-4aef-bd57-e4f122c09d99")
+		(property "Reference" "#PWR029"
+			(at 54.61 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c48e547-587e-4824-81ca-53099ac3d84f")
+		)
+		(instances
+			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -57848,7 +58346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee736bb4-d196-455a-a3c4-b0ea7e1db134")
-		(property "Reference" "TP_RX2"
+		(property "Reference" "TP_RX1"
 			(at 667.004 186.69 90)
 			(effects
 				(font
@@ -57897,7 +58395,7 @@
 		(instances
 			(project "28388motherboard"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
-					(reference "TP_RX2")
+					(reference "TP_RX1")
 					(unit 1)
 				)
 			)
@@ -58427,6 +58925,70 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 54.61 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4f90896-2456-4a01-8626-d26275698d2a")
+		(property "Reference" "TP_G1"
+			(at 74.676 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 64.77 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 54.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 54.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83cd2917-196c-44dc-b205-e4b3addef20b")
+		)
+		(instances
+			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
+					(reference "TP_G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 730.25 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -58434,7 +58996,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5fb6e81-ec52-4a8c-9cd6-ae92aea53762")
-		(property "Reference" "TP_RX4"
+		(property "Reference" "TP_RX3"
 			(at 711.454 185.42 90)
 			(effects
 				(font
@@ -58483,7 +59045,7 @@
 		(instances
 			(project "28388motherboard"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
-					(reference "TP_RX4")
+					(reference "TP_RX3")
 					(unit 1)
 				)
 			)
@@ -58885,6 +59447,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 610.87 406.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f91cacf2-d8b2-4c92-896a-13e0accd74d7")
+		(property "Reference" "#PWR031"
+			(at 610.87 412.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 610.87 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 610.87 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 610.87 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 610.87 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e420c866-b94c-432e-8e17-38c083309629")
+		)
+		(instances
+			(project "28388motherboard"
+				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 360.68 204.47 270)
 		(unit 1)
@@ -59152,7 +59779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe5a8bf0-ba6e-47f3-b67b-60546ecd58c5")
-		(property "Reference" "TP_RX5"
+		(property "Reference" "TP_RX4"
 			(at 711.454 208.28 90)
 			(effects
 				(font
@@ -59201,7 +59828,7 @@
 		(instances
 			(project "28388motherboard"
 				(path "/88c87a56-bf0e-49aa-812f-d0846700c8ff"
-					(reference "TP_RX5")
+					(reference "TP_RX4")
 					(unit 1)
 				)
 			)
